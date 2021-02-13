@@ -13,8 +13,8 @@
 Guitar_Amp_PrototypeAudioProcessorEditor::Guitar_Amp_PrototypeAudioProcessorEditor (Guitar_Amp_PrototypeAudioProcessor& p)
     : AudioProcessorEditor (&p), audioProcessor (p)
 {
-    shadowProperties.radius = 15;
-        shadowProperties.offset = juce::Point<int> (-2, 6);
+    shadowProperties.radius = 24;
+        shadowProperties.offset = juce::Point<int> (-1, 3);
         dialShadow.setShadowProperties (shadowProperties);
         
         sliders.reserve(6);
@@ -65,7 +65,7 @@ Guitar_Amp_PrototypeAudioProcessorEditor::Guitar_Amp_PrototypeAudioProcessorEdit
             }
         
         addAndMakeVisible(windowBorder);
-        windowBorder.setText("Amplifier");
+        windowBorder.setText("Ignorant Diode Amplifier");
         windowBorder.setColour(0x1005400, juce::Colour::fromFloatRGBA(1, 1, 1, 0.25f));
         windowBorder.setColour(0x1005410, juce::Colour::fromFloatRGBA(1, 1, 1, 0.25f));
         

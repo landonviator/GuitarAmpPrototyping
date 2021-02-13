@@ -70,12 +70,16 @@ public:
     //==============================================================================
     void getStateInformation (juce::MemoryBlock& destData) override;
     void setStateInformation (const void* data, int sizeInBytes) override;
+    void updateHighPassFilter(const float &freq);
+
 
     juce::AudioProcessorValueTreeState treeState;
     juce::AudioProcessorValueTreeState::ParameterLayout createParameterLayout();
     
 private:
     const float piDivisor = 2 / 3.14;
+    float lastSampleRate = 44100;
+    juce::dsp::ProcessorDuplicator<juce::dsp::IIR::Filter<float>, juce::dsp::IIR::Coefficients<float>> highPassFilter;
     juce::dsp::Gain<float> inputGainProcessor;
     juce::dsp::Convolution convolutionProcessor;
     juce::dsp::Gain<float> outputGainProcessor;

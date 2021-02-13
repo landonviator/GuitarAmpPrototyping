@@ -20,7 +20,8 @@ Guitar_Amp_PrototypeAudioProcessor::Guitar_Amp_PrototypeAudioProcessor()
                        .withOutput ("Output", juce::AudioChannelSet::stereo(), true)
                      #endif
                        ),
-treeState (*this, nullptr, "PARAMETER", createParameterLayout())
+treeState (*this, nullptr, "PARAMETER", createParameterLayout()),
+highPassFilter(juce::dsp::IIR::Coefficients<float>::makeHighPass(44100, 20000, 1.0f))
 #endif
 {
 }
@@ -122,6 +123,8 @@ void Guitar_Amp_PrototypeAudioProcessor::prepareToPlay (double sampleRate, int s
     spec.sampleRate = sampleRate;
     spec.numChannels = getTotalNumOutputChannels();
     
+    highPassFilter.prepare(spec);
+    highPassFilter.reset();
     inputGainProcessor.prepare(spec);
     convolutionProcessor.prepare(spec);
     outputGainProcessor.prepare(spec);
@@ -186,17 +189,23 @@ void Guitar_Amp_PrototypeAudioProcessor::processBlock (juce::AudioBuffer<float>&
         inputGainProcessor.setGainDecibels(*rawInput);
         inputGainProcessor.process(juce::dsp::ProcessContextReplacing<float> (audioBlock));
         
+        updateHighPassFilter(200);
+        highPassFilter.process(juce::dsp::ProcessContextReplacing<float>(audioBlock));
+        
         for (int sample = 0; sample < buffer.getNumSamples(); sample++){
-            float diodeClippingAlgorithm = exp(inputData[sample] / (0.0253 * 1.68)) - 1;
-            outputData[sample] = piDivisor * atan(diodeClippingAlgorithm * (driveScaled * 8));
+            float diodeClippingAlgorithm = exp((0.1 * inputData[sample]) / (0.0253 * 1.68)) - 1;
+            outputData[sample] = piDivisor * atan(diodeClippingAlgorithm * (driveScaled * 16));
         }
         
-//        convolutionProcessor.loadImpulseResponse(BinaryData::metalOne_wav, BinaryData::metalOne_wavSize, juce::dsp::Convolution::Stereo::yes, juce::dsp::Convolution::Trim::yes, 0, juce::dsp::Convolution::Normalise::yes);
         convolutionProcessor.process(juce::dsp::ProcessContextReplacing<float> (audioBlock));
         
         outputGainProcessor.setGainDecibels(*rawOutput);
         outputGainProcessor.process(juce::dsp::ProcessContextReplacing<float> (audioBlock));
     }
+}
+
+void Guitar_Amp_PrototypeAudioProcessor::updateHighPassFilter(const float &freq){
+    *highPassFilter.state = *juce::dsp::IIR::Coefficients<float>::makeHighPass(lastSampleRate, freq);
 }
 
 //==============================================================================

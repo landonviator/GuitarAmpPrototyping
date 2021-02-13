@@ -125,6 +125,8 @@ void Guitar_Amp_PrototypeAudioProcessor::prepareToPlay (double sampleRate, int s
     inputGainProcessor.prepare(spec);
     convolutionProcessor.prepare(spec);
     outputGainProcessor.prepare(spec);
+    
+    convolutionProcessor.loadImpulseResponse(BinaryData::metalOne_wav, BinaryData::metalOne_wavSize, juce::dsp::Convolution::Stereo::yes, juce::dsp::Convolution::Trim::yes, 0, juce::dsp::Convolution::Normalise::yes);
 }
 
 void Guitar_Amp_PrototypeAudioProcessor::releaseResources()
@@ -175,6 +177,7 @@ void Guitar_Amp_PrototypeAudioProcessor::processBlock (juce::AudioBuffer<float>&
         auto* outputData = buffer.getWritePointer(channel);
         auto* rawInput = treeState.getRawParameterValue(inputGainSliderId);
         auto* rawDrive = treeState.getRawParameterValue(driveSliderId);
+        float driveScaled = pow(10, *rawDrive * 0.05);
         auto* rawLow = treeState.getRawParameterValue(lowSliderId);
         auto* rawMid = treeState.getRawParameterValue(midSliderId);
         auto* rawHigh = treeState.getRawParameterValue(highSliderId);
@@ -183,11 +186,12 @@ void Guitar_Amp_PrototypeAudioProcessor::processBlock (juce::AudioBuffer<float>&
         inputGainProcessor.setGainDecibels(*rawInput);
         inputGainProcessor.process(juce::dsp::ProcessContextReplacing<float> (audioBlock));
         
-//        for (int samples = 0; samples < buffer.getNumSamples(); samples++){
-//
-//        }
+        for (int sample = 0; sample < buffer.getNumSamples(); sample++){
+            float diodeClippingAlgorithm = exp(inputData[sample] / (0.0253 * 1.68)) - 1;
+            outputData[sample] = piDivisor * atan(diodeClippingAlgorithm * (driveScaled * 8));
+        }
         
-        convolutionProcessor.loadImpulseResponse(BinaryData::metalOne_wav, BinaryData::metalOne_wavSize, juce::dsp::Convolution::Stereo::yes, juce::dsp::Convolution::Trim::yes, 0, juce::dsp::Convolution::Normalise::yes);
+//        convolutionProcessor.loadImpulseResponse(BinaryData::metalOne_wav, BinaryData::metalOne_wavSize, juce::dsp::Convolution::Stereo::yes, juce::dsp::Convolution::Trim::yes, 0, juce::dsp::Convolution::Normalise::yes);
         convolutionProcessor.process(juce::dsp::ProcessContextReplacing<float> (audioBlock));
         
         outputGainProcessor.setGainDecibels(*rawOutput);

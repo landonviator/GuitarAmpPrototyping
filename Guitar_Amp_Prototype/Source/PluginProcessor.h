@@ -75,7 +75,7 @@ public:
     juce::AudioProcessorValueTreeState::ParameterLayout createParameterLayout();
     
 private:
-    
+    const float piDivisor = 2 / 3.14;
     juce::dsp::Gain<float> inputGainProcessor;
     juce::dsp::Convolution convolutionProcessor;
     juce::dsp::Gain<float> outputGainProcessor;

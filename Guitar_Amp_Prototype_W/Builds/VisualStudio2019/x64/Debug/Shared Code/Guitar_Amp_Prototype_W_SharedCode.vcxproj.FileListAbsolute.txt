@@ -1,0 +1,1 @@
+C:\Users\lando\Documents\GitHub\GuitarAmpPrototyping\Guitar_Amp_Prototype_W\Builds\VisualStudio2019\x64\Debug\Shared Code\Guitar_Amp_Prototype_W.lib

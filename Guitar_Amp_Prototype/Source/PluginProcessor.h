@@ -71,7 +71,10 @@ public:
     void getStateInformation (juce::MemoryBlock& destData) override;
     void setStateInformation (const void* data, int sizeInBytes) override;
     void updateHighPassFilter(const float &freq);
-
+    void updatePreClipFilter(const float &freq);
+    void updateLowFilter(const float &gain);
+    void updateMidFilter(const float &gain);
+    void updateHighFilter(const float &gain);
 
     juce::AudioProcessorValueTreeState treeState;
     juce::AudioProcessorValueTreeState::ParameterLayout createParameterLayout();
@@ -79,7 +82,16 @@ public:
 private:
     const float piDivisor = 2 / 3.14;
     float lastSampleRate = 44100;
+    
+    /* non user controlled filters. Used to shape the tone of the sim*/
     juce::dsp::ProcessorDuplicator<juce::dsp::IIR::Filter<float>, juce::dsp::IIR::Coefficients<float>> highPassFilter;
+    juce::dsp::ProcessorDuplicator<juce::dsp::IIR::Filter<float>, juce::dsp::IIR::Coefficients<float>> preClipFilter;
+
+    /*user controlled filters for the amp head*/
+    juce::dsp::ProcessorDuplicator<juce::dsp::IIR::Filter<float>, juce::dsp::IIR::Coefficients<float>> lowFilter;
+    juce::dsp::ProcessorDuplicator<juce::dsp::IIR::Filter<float>, juce::dsp::IIR::Coefficients<float>> midFilter;
+    juce::dsp::ProcessorDuplicator<juce::dsp::IIR::Filter<float>, juce::dsp::IIR::Coefficients<float>> highFilter;
+    
     juce::dsp::Gain<float> inputGainProcessor;
     juce::dsp::Convolution convolutionProcessor;
     juce::dsp::Gain<float> outputGainProcessor;

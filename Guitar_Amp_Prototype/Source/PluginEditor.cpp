@@ -42,18 +42,20 @@ Guitar_Amp_PrototypeAudioProcessorEditor::Guitar_Amp_PrototypeAudioProcessorEdit
             sliders[i]->setColour(0x1001500, juce::Colour::fromFloatRGBA(0, 0, 0, 0.25f));
             sliders[i]->setLookAndFeel(&customDial);
             sliders[i]->setComponentEffect(&dialShadow);
-            sliders[i]->setRange(-36.0, 36.0, 0.5);
+            sliders[i]->setRange(-36.0, 36.0, 0.25);
             sliders[i]->setDoubleClickReturnValue(true, 0.0);
         }
         
         driveSlider.setRange(0, 24, 0.5);
-        
+        lowSlider.setRange(-6.0, 6.0, 0.25);
+        midSlider.setRange(-6.0, 6.0, 0.25);
+        highSlider.setRange(-6.0, 6.0, 0.25);
         
         inputSliderAttach = std::make_unique<juce::AudioProcessorValueTreeState::SliderAttachment>(audioProcessor.treeState, inputGainSliderId, inputSlider);
         driveSliderAttach = std::make_unique<juce::AudioProcessorValueTreeState::SliderAttachment>(audioProcessor.treeState, driveSliderId, driveSlider);
-//        thresholdSliderAttach = std::make_unique<juce::AudioProcessorValueTreeState::SliderAttachment>(audioProcessor.treeState, threshSliderId, threshSlider);
-//        attackSliderAttach = std::make_unique<juce::AudioProcessorValueTreeState::SliderAttachment>(audioProcessor.treeState, attackSliderId, attackSlider);
-//        releaseSliderAttach = std::make_unique<juce::AudioProcessorValueTreeState::SliderAttachment>(audioProcessor.treeState, releaseSliderId, releaseSlider);
+        lowSliderAttach = std::make_unique<juce::AudioProcessorValueTreeState::SliderAttachment>(audioProcessor.treeState, lowSliderId, lowSlider);
+        midSliderAttach = std::make_unique<juce::AudioProcessorValueTreeState::SliderAttachment>(audioProcessor.treeState, midSliderId, midSlider);
+        highSliderAttach = std::make_unique<juce::AudioProcessorValueTreeState::SliderAttachment>(audioProcessor.treeState, highSliderId, highSlider);
         outputSliderAttach = std::make_unique<juce::AudioProcessorValueTreeState::SliderAttachment>(audioProcessor.treeState, outputGainSliderId, outputSlider);
         
         for (auto i = 0; i < labels.size(); i++) {

@@ -21,7 +21,11 @@ Guitar_Amp_PrototypeAudioProcessor::Guitar_Amp_PrototypeAudioProcessor()
                      #endif
                        ),
 treeState (*this, nullptr, "PARAMETER", createParameterLayout()),
-highPassFilter(juce::dsp::IIR::Coefficients<float>::makeHighPass(44100, 20000, 1.0f))
+highPassFilter(juce::dsp::IIR::Coefficients<float>::makeHighPass(44100, 20000, 1.0)),
+preClipFilter(juce::dsp::IIR::Coefficients<float>::makePeakFilter(44100, 1420, 0.5, 6.0)),
+lowFilter(juce::dsp::IIR::Coefficients<float>::makeLowShelf(44100.0, 200.0f, 1.3f, 1.0f)),
+midFilter(juce::dsp::IIR::Coefficients<float>::makePeakFilter(44100, 815, 0.3, 1.0)),
+highFilter(juce::dsp::IIR::Coefficients<float>::makePeakFilter(44100, 6000, 0.2, 6.0))
 #endif
 {
 }
@@ -38,9 +42,9 @@ juce::AudioProcessorValueTreeState::ParameterLayout Guitar_Amp_PrototypeAudioPro
     
     auto inputGainParam = std::make_unique<juce::AudioParameterFloat>(inputGainSliderId, inputGainSliderName, -36.0f, 36.0f, 0.0f);
     auto driveParam = std::make_unique<juce::AudioParameterFloat>(driveSliderId, driveSliderName, 0.0f, 24.0f, 0.0f);
-    auto lowParam = std::make_unique<juce::AudioParameterFloat>(lowSliderId, lowSliderName, -36.0f, 36.0f, 0.0f);
-    auto midParam = std::make_unique<juce::AudioParameterFloat>(midSliderId, midSliderName, -36.0f, 36.0f, 0.0f);
-    auto highParam = std::make_unique<juce::AudioParameterFloat>(highSliderId, highSliderName, -36.0f, 36.0f, 0.0f);
+    auto lowParam = std::make_unique<juce::AudioParameterFloat>(lowSliderId, lowSliderName, -6.0f, 6.0f, 0.0f);
+    auto midParam = std::make_unique<juce::AudioParameterFloat>(midSliderId, midSliderName, -6.0f, 6.0f, 0.0f);
+    auto highParam = std::make_unique<juce::AudioParameterFloat>(highSliderId, highSliderName, -6.0f, 6.0f, 0.0f);
     auto outputGainParam = std::make_unique<juce::AudioParameterFloat>(outputGainSliderId, outputGainSliderName, -36.0f, 36.0f, 0.0f);
     
     params.push_back(std::move(inputGainParam));
@@ -125,6 +129,16 @@ void Guitar_Amp_PrototypeAudioProcessor::prepareToPlay (double sampleRate, int s
     
     highPassFilter.prepare(spec);
     highPassFilter.reset();
+    preClipFilter.prepare(spec);
+    preClipFilter.reset();
+    
+    lowFilter.prepare(spec);
+    lowFilter.reset();
+    midFilter.prepare(spec);
+    midFilter.reset();
+    highFilter.prepare(spec);
+    highFilter.reset();
+    
     inputGainProcessor.prepare(spec);
     convolutionProcessor.prepare(spec);
     outputGainProcessor.prepare(spec);
@@ -190,7 +204,14 @@ void Guitar_Amp_PrototypeAudioProcessor::processBlock (juce::AudioBuffer<float>&
         inputGainProcessor.process(juce::dsp::ProcessContextReplacing<float> (audioBlock));
         
         updateHighPassFilter(200);
+        updatePreClipFilter(1420);
+        
+        updateLowFilter(*rawLow);
+        updateMidFilter(*rawMid);
+        updateHighFilter(*rawHigh);
+        
         highPassFilter.process(juce::dsp::ProcessContextReplacing<float>(audioBlock));
+        preClipFilter.process(juce::dsp::ProcessContextReplacing<float>(audioBlock));
         
         for (int sample = 0; sample < buffer.getNumSamples(); sample++){
             float diodeClippingAlgorithm = exp((0.1 * inputData[sample]) / (0.0253 * 1.68)) - 1;
@@ -201,11 +222,31 @@ void Guitar_Amp_PrototypeAudioProcessor::processBlock (juce::AudioBuffer<float>&
         
         outputGainProcessor.setGainDecibels(*rawOutput);
         outputGainProcessor.process(juce::dsp::ProcessContextReplacing<float> (audioBlock));
+        
+        lowFilter.process(juce::dsp::ProcessContextReplacing<float>(audioBlock));
+        midFilter.process(juce::dsp::ProcessContextReplacing<float>(audioBlock));
+        highFilter.process(juce::dsp::ProcessContextReplacing<float>(audioBlock));
     }
 }
 
 void Guitar_Amp_PrototypeAudioProcessor::updateHighPassFilter(const float &freq){
     *highPassFilter.state = *juce::dsp::IIR::Coefficients<float>::makeHighPass(lastSampleRate, freq);
+}
+
+void Guitar_Amp_PrototypeAudioProcessor::updatePreClipFilter(const float &freq){
+    *preClipFilter.state = *juce::dsp::IIR::Coefficients<float>::makePeakFilter(lastSampleRate, freq, 0.5, 6.0);
+}
+
+void Guitar_Amp_PrototypeAudioProcessor::updateLowFilter(const float &gain){
+    *lowFilter.state = *juce::dsp::IIR::Coefficients<float>::makeLowShelf(lastSampleRate, 200, 1.3, pow(10, gain * 0.05));
+}
+
+void Guitar_Amp_PrototypeAudioProcessor::updateMidFilter(const float &gain){
+    *midFilter.state = *juce::dsp::IIR::Coefficients<float>::makePeakFilter(lastSampleRate, 815, 0.3, pow(10, gain * 0.05));
+}
+
+void Guitar_Amp_PrototypeAudioProcessor::updateHighFilter(const float &gain){
+    *highFilter.state = *juce::dsp::IIR::Coefficients<float>::makePeakFilter(lastSampleRate, 6000, 0.2, pow(10, gain * 0.05));
 }
 
 //==============================================================================

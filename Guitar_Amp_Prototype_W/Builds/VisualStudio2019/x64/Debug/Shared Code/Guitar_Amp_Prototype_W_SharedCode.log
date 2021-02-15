@@ -1,28 +1,15 @@
 ﻿  PluginProcessor.cpp
-  PluginEditor.cpp
-  BinaryData.cpp
-C:\Users\lando\Documents\GitHub\GuitarAmpPrototyping\Guitar_Amp_Prototype_W\Source\PluginProcessor.h(83,27): warning C4305: 'initializing': truncation from 'double' to 'const float' (compiling source file ..\..\Source\PluginProcessor.cpp)
-C:\Users\lando\Documents\GitHub\GuitarAmpPrototyping\Guitar_Amp_Prototype_W\Source\ViatorDial.h(24,24): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data (compiling source file ..\..\Source\PluginProcessor.cpp)
-C:\Users\lando\Documents\GitHub\GuitarAmpPrototyping\Guitar_Amp_Prototype_W\Source\ViatorDial.h(25,22): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data (compiling source file ..\..\Source\PluginProcessor.cpp)
-C:\Users\lando\Documents\GitHub\GuitarAmpPrototyping\Guitar_Amp_Prototype_W\Source\ViatorDial.h(26,23): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data (compiling source file ..\..\Source\PluginProcessor.cpp)
-C:\Users\lando\Documents\GitHub\GuitarAmpPrototyping\Guitar_Amp_Prototype_W\Source\ViatorDial.h(27,23): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data (compiling source file ..\..\Source\PluginProcessor.cpp)
-C:\Users\lando\Documents\GitHub\GuitarAmpPrototyping\Guitar_Amp_Prototype_W\Source\ViatorDial.h(33,1): warning C4305: 'argument': truncation from 'double' to 'float' (compiling source file ..\..\Source\PluginProcessor.cpp)
-C:\Users\lando\Documents\GitHub\GuitarAmpPrototyping\Guitar_Amp_Prototype_W\Source\ViatorDial.h(34,1): warning C4305: 'argument': truncation from 'double' to 'float' (compiling source file ..\..\Source\PluginProcessor.cpp)
-C:\Users\lando\Documents\GitHub\GuitarAmpPrototyping\Guitar_Amp_Prototype_W\Source\ViatorDial.h(34,180): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data (compiling source file ..\..\Source\PluginProcessor.cpp)
-C:\Users\lando\Documents\GitHub\GuitarAmpPrototyping\Guitar_Amp_Prototype_W\Source\ViatorDial.h(34,115): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data (compiling source file ..\..\Source\PluginProcessor.cpp)
-C:\Users\lando\Documents\GitHub\GuitarAmpPrototyping\Guitar_Amp_Prototype_W\Source\ViatorDial.h(39,60): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data (compiling source file ..\..\Source\PluginProcessor.cpp)
-C:\Users\lando\Documents\GitHub\GuitarAmpPrototyping\Guitar_Amp_Prototype_W\Source\PluginProcessor.h(83,27): warning C4305: 'initializing': truncation from 'double' to 'const float' (compiling source file ..\..\Source\PluginEditor.cpp)
-C:\Users\lando\Documents\GitHub\GuitarAmpPrototyping\Guitar_Amp_Prototype_W\Source\ViatorDial.h(22,160): warning C4100: 'slider': unreferenced formal parameter (compiling source file ..\..\Source\PluginProcessor.cpp)
-C:\Users\lando\Documents\GitHub\GuitarAmpPrototyping\Guitar_Amp_Prototype_W\Source\ViatorDial.h(24,24): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data (compiling source file ..\..\Source\PluginEditor.cpp)
-C:\Users\lando\Documents\GitHub\GuitarAmpPrototyping\Guitar_Amp_Prototype_W\Source\ViatorDial.h(25,22): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data (compiling source file ..\..\Source\PluginEditor.cpp)
-C:\Users\lando\Documents\GitHub\GuitarAmpPrototyping\Guitar_Amp_Prototype_W\Source\ViatorDial.h(26,23): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data (compiling source file ..\..\Source\PluginEditor.cpp)
-C:\Users\lando\Documents\GitHub\GuitarAmpPrototyping\Guitar_Amp_Prototype_W\Source\ViatorDial.h(27,23): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data (compiling source file ..\..\Source\PluginEditor.cpp)
-C:\Users\lando\Documents\GitHub\GuitarAmpPrototyping\Guitar_Amp_Prototype_W\Source\ViatorDial.h(33,1): warning C4305: 'argument': truncation from 'double' to 'float' (compiling source file ..\..\Source\PluginEditor.cpp)
-C:\Users\lando\Documents\GitHub\GuitarAmpPrototyping\Guitar_Amp_Prototype_W\Source\ViatorDial.h(34,1): warning C4305: 'argument': truncation from 'double' to 'float' (compiling source file ..\..\Source\PluginEditor.cpp)
-C:\Users\lando\Documents\GitHub\GuitarAmpPrototyping\Guitar_Amp_Prototype_W\Source\ViatorDial.h(34,180): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data (compiling source file ..\..\Source\PluginEditor.cpp)
-C:\Users\lando\Documents\GitHub\GuitarAmpPrototyping\Guitar_Amp_Prototype_W\Source\ViatorDial.h(34,115): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data (compiling source file ..\..\Source\PluginEditor.cpp)
-C:\Users\lando\Documents\GitHub\GuitarAmpPrototyping\Guitar_Amp_Prototype_W\Source\ViatorDial.h(39,60): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data (compiling source file ..\..\Source\PluginEditor.cpp)
-C:\Users\lando\Documents\GitHub\GuitarAmpPrototyping\Guitar_Amp_Prototype_W\Source\ViatorDial.h(22,160): warning C4100: 'slider': unreferenced formal parameter (compiling source file ..\..\Source\PluginEditor.cpp)
+C:\Users\lando\Documents\GitHub\GuitarAmpPrototyping\Guitar_Amp_Prototype_W\Source\PluginProcessor.h(83,27): warning C4305: 'initializing': truncation from 'double' to 'const float'
+C:\Users\lando\Documents\GitHub\GuitarAmpPrototyping\Guitar_Amp_Prototype_W\Source\ViatorDial.h(24,24): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\lando\Documents\GitHub\GuitarAmpPrototyping\Guitar_Amp_Prototype_W\Source\ViatorDial.h(25,22): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\lando\Documents\GitHub\GuitarAmpPrototyping\Guitar_Amp_Prototype_W\Source\ViatorDial.h(26,23): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\lando\Documents\GitHub\GuitarAmpPrototyping\Guitar_Amp_Prototype_W\Source\ViatorDial.h(27,23): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\lando\Documents\GitHub\GuitarAmpPrototyping\Guitar_Amp_Prototype_W\Source\ViatorDial.h(33,1): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\lando\Documents\GitHub\GuitarAmpPrototyping\Guitar_Amp_Prototype_W\Source\ViatorDial.h(34,1): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\lando\Documents\GitHub\GuitarAmpPrototyping\Guitar_Amp_Prototype_W\Source\ViatorDial.h(34,180): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\lando\Documents\GitHub\GuitarAmpPrototyping\Guitar_Amp_Prototype_W\Source\ViatorDial.h(34,115): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\lando\Documents\GitHub\GuitarAmpPrototyping\Guitar_Amp_Prototype_W\Source\ViatorDial.h(39,60): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\lando\Documents\GitHub\GuitarAmpPrototyping\Guitar_Amp_Prototype_W\Source\ViatorDial.h(22,160): warning C4100: 'slider': unreferenced formal parameter
 C:\Users\lando\Documents\GitHub\GuitarAmpPrototyping\Guitar_Amp_Prototype_W\Source\PluginProcessor.cpp(27,87): warning C4305: 'argument': truncation from 'double' to 'NumericType'
           with
           [
@@ -33,61 +20,39 @@ C:\Users\lando\Documents\GitHub\GuitarAmpPrototyping\Guitar_Amp_Prototype_W\Sour
           [
               NumericType=float
           ]
-C:\Users\lando\Documents\GitHub\GuitarAmpPrototyping\Guitar_Amp_Prototype_W\Source\PluginEditor.cpp(105,85): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-C:\Users\lando\Documents\GitHub\GuitarAmpPrototyping\Guitar_Amp_Prototype_W\Source\PluginEditor.cpp(105,61): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-C:\Users\lando\Documents\GitHub\GuitarAmpPrototyping\Guitar_Amp_Prototype_W\Source\PluginEditor.cpp(105,156): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
-C:\Users\lando\Documents\GitHub\GuitarAmpPrototyping\Guitar_Amp_Prototype_W\Source\PluginEditor.cpp(118,85): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-C:\Users\lando\Documents\GitHub\GuitarAmpPrototyping\Guitar_Amp_Prototype_W\Source\PluginEditor.cpp(118,61): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-C:\Users\lando\Documents\GitHub\GuitarAmpPrototyping\Guitar_Amp_Prototype_W\Source\PluginEditor.cpp(118,156): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
-C:\Users\lando\Documents\GitHub\GuitarAmpPrototyping\Guitar_Amp_Prototype_W\Source\PluginEditor.cpp(131,87): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-C:\Users\lando\Documents\GitHub\GuitarAmpPrototyping\Guitar_Amp_Prototype_W\Source\PluginEditor.cpp(131,63): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-C:\Users\lando\Documents\GitHub\GuitarAmpPrototyping\Guitar_Amp_Prototype_W\Source\PluginEditor.cpp(131,156): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
-C:\Users\lando\Documents\GitHub\GuitarAmpPrototyping\Guitar_Amp_Prototype_W\Source\PluginEditor.cpp(144,86): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-C:\Users\lando\Documents\GitHub\GuitarAmpPrototyping\Guitar_Amp_Prototype_W\Source\PluginEditor.cpp(144,62): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-C:\Users\lando\Documents\GitHub\GuitarAmpPrototyping\Guitar_Amp_Prototype_W\Source\PluginEditor.cpp(144,155): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
-C:\Users\lando\Documents\GitHub\GuitarAmpPrototyping\Guitar_Amp_Prototype_W\Source\PluginEditor.cpp(157,86): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-C:\Users\lando\Documents\GitHub\GuitarAmpPrototyping\Guitar_Amp_Prototype_W\Source\PluginEditor.cpp(157,62): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-C:\Users\lando\Documents\GitHub\GuitarAmpPrototyping\Guitar_Amp_Prototype_W\Source\PluginEditor.cpp(157,156): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
-C:\Users\lando\Documents\GitHub\GuitarAmpPrototyping\Guitar_Amp_Prototype_W\Source\PluginEditor.cpp(170,85): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-C:\Users\lando\Documents\GitHub\GuitarAmpPrototyping\Guitar_Amp_Prototype_W\Source\PluginEditor.cpp(170,61): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-C:\Users\lando\Documents\GitHub\GuitarAmpPrototyping\Guitar_Amp_Prototype_W\Source\PluginEditor.cpp(170,157): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
-C:\Users\lando\Documents\GitHub\GuitarAmpPrototyping\Guitar_Amp_Prototype_W\Source\PluginEditor.cpp(176,184): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
-C:\Users\lando\Documents\GitHub\GuitarAmpPrototyping\Guitar_Amp_Prototype_W\Source\PluginEditor.cpp(176,143): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
-C:\Users\lando\Documents\GitHub\GuitarAmpPrototyping\Guitar_Amp_Prototype_W\Source\PluginEditor.cpp(176,102): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
-C:\Users\lando\Documents\GitHub\GuitarAmpPrototyping\Guitar_Amp_Prototype_W\Source\PluginEditor.cpp(176,61): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
 C:\Users\lando\Documents\GitHub\GuitarAmpPrototyping\Guitar_Amp_Prototype_W\Source\PluginProcessor.cpp(109,66): warning C4100: 'index': unreferenced formal parameter
 C:\Users\lando\Documents\GitHub\GuitarAmpPrototyping\Guitar_Amp_Prototype_W\Source\PluginProcessor.cpp(113,77): warning C4100: 'index': unreferenced formal parameter
 C:\Users\lando\Documents\GitHub\GuitarAmpPrototyping\Guitar_Amp_Prototype_W\Source\PluginProcessor.cpp(118,93): warning C4100: 'newName': unreferenced formal parameter
 C:\Users\lando\Documents\GitHub\GuitarAmpPrototyping\Guitar_Amp_Prototype_W\Source\PluginProcessor.cpp(118,66): warning C4100: 'index': unreferenced formal parameter
-C:\Users\lando\Documents\GitHub\GuitarAmpPrototyping\Guitar_Amp_Prototype_W\Source\PluginProcessor.cpp(197,27): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
-C:\Users\lando\Documents\GitHub\GuitarAmpPrototyping\Guitar_Amp_Prototype_W\Source\PluginProcessor.cpp(217,42): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
-C:\Users\lando\Documents\GitHub\GuitarAmpPrototyping\Guitar_Amp_Prototype_W\Source\PluginProcessor.cpp(181,109): warning C4100: 'midiMessages': unreferenced formal parameter
-C:\Users\lando\Documents\GitHub\GuitarAmpPrototyping\Guitar_Amp_Prototype_W\Source\PluginProcessor.cpp(241,104): warning C4244: 'argument': conversion from 'double' to 'NumericType', possible loss of data
+C:\Users\lando\Documents\GitHub\GuitarAmpPrototyping\Guitar_Amp_Prototype_W\Source\PluginProcessor.cpp(204,27): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\lando\Documents\GitHub\GuitarAmpPrototyping\Guitar_Amp_Prototype_W\Source\PluginProcessor.cpp(225,42): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\lando\Documents\GitHub\GuitarAmpPrototyping\Guitar_Amp_Prototype_W\Source\PluginProcessor.cpp(190,109): warning C4100: 'midiMessages': unreferenced formal parameter
+C:\Users\lando\Documents\GitHub\GuitarAmpPrototyping\Guitar_Amp_Prototype_W\Source\PluginProcessor.cpp(247,104): warning C4244: 'argument': conversion from 'double' to 'NumericType', possible loss of data
           with
           [
               NumericType=float
           ]
-C:\Users\lando\Documents\GitHub\GuitarAmpPrototyping\Guitar_Amp_Prototype_W\Source\PluginProcessor.cpp(241,121): warning C4305: 'argument': truncation from 'double' to 'NumericType'
+C:\Users\lando\Documents\GitHub\GuitarAmpPrototyping\Guitar_Amp_Prototype_W\Source\PluginProcessor.cpp(247,121): warning C4305: 'argument': truncation from 'double' to 'NumericType'
           with
           [
               NumericType=float
           ]
-C:\Users\lando\Documents\GitHub\GuitarAmpPrototyping\Guitar_Amp_Prototype_W\Source\PluginProcessor.cpp(245,106): warning C4244: 'argument': conversion from 'double' to 'NumericType', possible loss of data
+C:\Users\lando\Documents\GitHub\GuitarAmpPrototyping\Guitar_Amp_Prototype_W\Source\PluginProcessor.cpp(251,106): warning C4244: 'argument': conversion from 'double' to 'NumericType', possible loss of data
           with
           [
               NumericType=float
           ]
-C:\Users\lando\Documents\GitHub\GuitarAmpPrototyping\Guitar_Amp_Prototype_W\Source\PluginProcessor.cpp(245,123): warning C4305: 'argument': truncation from 'double' to 'NumericType'
+C:\Users\lando\Documents\GitHub\GuitarAmpPrototyping\Guitar_Amp_Prototype_W\Source\PluginProcessor.cpp(251,123): warning C4305: 'argument': truncation from 'double' to 'NumericType'
           with
           [
               NumericType=float
           ]
-C:\Users\lando\Documents\GitHub\GuitarAmpPrototyping\Guitar_Amp_Prototype_W\Source\PluginProcessor.cpp(249,108): warning C4244: 'argument': conversion from 'double' to 'NumericType', possible loss of data
+C:\Users\lando\Documents\GitHub\GuitarAmpPrototyping\Guitar_Amp_Prototype_W\Source\PluginProcessor.cpp(255,108): warning C4244: 'argument': conversion from 'double' to 'NumericType', possible loss of data
           with
           [
               NumericType=float
           ]
-C:\Users\lando\Documents\GitHub\GuitarAmpPrototyping\Guitar_Amp_Prototype_W\Source\PluginProcessor.cpp(249,125): warning C4305: 'argument': truncation from 'double' to 'NumericType'
+C:\Users\lando\Documents\GitHub\GuitarAmpPrototyping\Guitar_Amp_Prototype_W\Source\PluginProcessor.cpp(255,125): warning C4305: 'argument': truncation from 'double' to 'NumericType'
           with
           [
               NumericType=float

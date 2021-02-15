@@ -140,10 +140,19 @@ void Guitar_Amp_Prototype_WAudioProcessor::prepareToPlay(double sampleRate, int 
     highFilter.reset();
 
     inputGainProcessor.prepare(spec);
+    inputGainProcessor.reset();
     convolutionProcessor.prepare(spec);
+    convolutionProcessor.reset();
     outputGainProcessor.prepare(spec);
+    outputGainProcessor.reset();
 
-    convolutionProcessor.loadImpulseResponse(BinaryData::metalOne_wav, BinaryData::metalOne_wavSize, juce::dsp::Convolution::Stereo::yes, juce::dsp::Convolution::Trim::yes, 0, juce::dsp::Convolution::Normalise::yes);
+    convolutionProcessor.loadImpulseResponse
+    (BinaryData::metalOne_wav, 
+     BinaryData::metalOne_wavSize, 
+     juce::dsp::Convolution::Stereo::yes, 
+     juce::dsp::Convolution::Trim::yes, 
+     0, 
+     juce::dsp::Convolution::Normalise::yes);
 }
 
 void Guitar_Amp_Prototype_WAudioProcessor::releaseResources()
@@ -187,8 +196,6 @@ void Guitar_Amp_Prototype_WAudioProcessor::processBlock(juce::AudioBuffer<float>
     for (auto i = totalNumInputChannels; i < totalNumOutputChannels; ++i)
         buffer.clear(i, 0, buffer.getNumSamples());
 
-    juce::dsp::AudioBlock<float> audioBlock{ buffer };
-
     for (int channel = 0; channel < totalNumInputChannels; ++channel) {
         auto* inputData = buffer.getReadPointer(channel);
         auto* outputData = buffer.getWritePointer(channel);
@@ -200,16 +207,17 @@ void Guitar_Amp_Prototype_WAudioProcessor::processBlock(juce::AudioBuffer<float>
         auto* rawHigh = treeState.getRawParameterValue(highSliderId);
         auto* rawOutput = treeState.getRawParameterValue(outputGainSliderId);
 
-        inputGainProcessor.setGainDecibels(*rawInput);
-        inputGainProcessor.process(juce::dsp::ProcessContextReplacing<float>(audioBlock));
+        juce::dsp::AudioBlock<float> audioBlock{ buffer };
 
+        inputGainProcessor.setGainDecibels(*rawInput);
+        
         updateHighPassFilter(200);
         updatePreClipFilter(1420);
-
         updateLowFilter(*rawLow);
         updateMidFilter(*rawMid);
         updateHighFilter(*rawHigh);
 
+        inputGainProcessor.process(juce::dsp::ProcessContextReplacing<float>(audioBlock));
         highPassFilter.process(juce::dsp::ProcessContextReplacing<float>(audioBlock));
         preClipFilter.process(juce::dsp::ProcessContextReplacing<float>(audioBlock));
 
@@ -218,14 +226,12 @@ void Guitar_Amp_Prototype_WAudioProcessor::processBlock(juce::AudioBuffer<float>
             outputData[sample] = piDivisor * atan(diodeClippingAlgorithm * (driveScaled * 16));
         }
 
-        convolutionProcessor.process(juce::dsp::ProcessContextReplacing<float>(audioBlock));
-
         outputGainProcessor.setGainDecibels(*rawOutput);
-        outputGainProcessor.process(juce::dsp::ProcessContextReplacing<float>(audioBlock));
-
+        convolutionProcessor.process(juce::dsp::ProcessContextReplacing<float>(audioBlock));
         lowFilter.process(juce::dsp::ProcessContextReplacing<float>(audioBlock));
         midFilter.process(juce::dsp::ProcessContextReplacing<float>(audioBlock));
         highFilter.process(juce::dsp::ProcessContextReplacing<float>(audioBlock));
+        outputGainProcessor.process(juce::dsp::ProcessContextReplacing<float>(audioBlock));
     }
 }
 

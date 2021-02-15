@@ -9,7 +9,7 @@
 namespace BinaryData
 {
     extern const char*   metalOne_wav;
-    const int            metalOne_wavSize = 38644;
+    const int            metalOne_wavSize = 241964;
 
     // Number of elements in the namedResourceList and originalFileNames arrays.
     const int namedResourceListSize = 1;

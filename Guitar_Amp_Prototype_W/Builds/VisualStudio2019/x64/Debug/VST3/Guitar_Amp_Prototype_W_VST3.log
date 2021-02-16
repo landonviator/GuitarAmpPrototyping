@@ -1,1 +1,3 @@
-﻿  Guitar_Amp_Prototype_W_VST3.vcxproj -> C:\Users\lando\Documents\GitHub\GuitarAmpPrototyping\Guitar_Amp_Prototype_W\Builds\VisualStudio2019\x64\Debug\VST3\Guitar_Amp_Prototype_W.vst3
+﻿  include_juce_audio_plugin_client_VST3.cpp
+     Creating library C:\Users\lando\Documents\GitHub\GuitarAmpPrototyping\Guitar_Amp_Prototype_W\Builds\VisualStudio2019\x64\Debug\VST3\Guitar_Amp_Prototype_W.lib and object C:\Users\lando\Documents\GitHub\GuitarAmpPrototyping\Guitar_Amp_Prototype_W\Builds\VisualStudio2019\x64\Debug\VST3\Guitar_Amp_Prototype_W.exp
+  Guitar_Amp_Prototype_W_VST3.vcxproj -> C:\Users\lando\Documents\GitHub\GuitarAmpPrototyping\Guitar_Amp_Prototype_W\Builds\VisualStudio2019\x64\Debug\VST3\Guitar_Amp_Prototype_W.vst3

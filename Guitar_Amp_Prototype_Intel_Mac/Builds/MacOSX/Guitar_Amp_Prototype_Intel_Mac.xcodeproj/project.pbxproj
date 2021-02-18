@@ -1,0 +1,2096 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+		392AF93AC6C3B6F554233847 = {
+			isa = PBXBuildFile;
+			fileRef = E63D6B6F7CFB37732A60A3C0;
+		};
+		60D4EA5B89053FE3F39FA66F = {
+			isa = PBXBuildFile;
+			fileRef = FAA41BB8416C6F59AE8BFCF3;
+		};
+		40821960386A206F3030E909 = {
+			isa = PBXBuildFile;
+			fileRef = E04D0C913FF18F7FB9FD6F3F;
+		};
+		345E303063B42F1EC8FAE4CA = {
+			isa = PBXBuildFile;
+			fileRef = E00DDB57C65B82E5E2C45817;
+		};
+		E76046FB00EEBEF29B2EDEAA = {
+			isa = PBXBuildFile;
+			fileRef = EB44D74FB9C3F887CDC3BDBF;
+		};
+		27C029F12FB4455D4FAC12D9 = {
+			isa = PBXBuildFile;
+			fileRef = 0903771AE3C0097C42568614;
+		};
+		B9F81B4281EECFFCD59CEE44 = {
+			isa = PBXBuildFile;
+			fileRef = 7246D7F5EEEF42225C6E0415;
+		};
+		53ACE64F2CA3817CB94DF2F8 = {
+			isa = PBXBuildFile;
+			fileRef = 135C60529785E5D986435A8D;
+		};
+		3252EB9B8A876F03DB801EA5 = {
+			isa = PBXBuildFile;
+			fileRef = 7B357F091DA99819E1F97D82;
+		};
+		E796F05FD4AB1DBA72F1CA61 = {
+			isa = PBXBuildFile;
+			fileRef = 5FB9D813B92F631262E81C1B;
+		};
+		88204272520B92952BA07EEE = {
+			isa = PBXBuildFile;
+			fileRef = 9CE4886F5A0A63749B562A9A;
+		};
+		B01E776E2C6EFD59F8549BAE = {
+			isa = PBXBuildFile;
+			fileRef = AF43C288D3C850A42CF9FBA9;
+		};
+		A38E829DC8D10F0F983120E9 = {
+			isa = PBXBuildFile;
+			fileRef = C9546CE6EA482F416EB62BD2;
+		};
+		B93787FA00D04E8D51359D5A = {
+			isa = PBXBuildFile;
+			fileRef = 2D801005184451302D19EFF7;
+		};
+		80DEF78CF855EF4EF14727A4 = {
+			isa = PBXBuildFile;
+			fileRef = DA7C7A6072A0F4773DEBB5E8;
+		};
+		5DDA4353DE7047F79CD64D36 = {
+			isa = PBXBuildFile;
+			fileRef = A714CB1940566811E0E771B4;
+		};
+		4659FFC0870D0D6C2DB4FA5C = {
+			isa = PBXBuildFile;
+			fileRef = 0FD75527F9BF713D50B69E71;
+		};
+		30FDCA8103AFA4903C42F1A8 = {
+			isa = PBXBuildFile;
+			fileRef = B029FCA7AEAF9B1C806800B7;
+		};
+		BA369EB9303169061C5DD1CA = {
+			isa = PBXBuildFile;
+			fileRef = D4EEB0FF5FFFCDFB414706E5;
+		};
+		1F9DBE5413525169FE4F5AAF = {
+			isa = PBXBuildFile;
+			fileRef = DBFB7E17A0FEE79A16A71713;
+		};
+		02994F68E0EB4747B5473D9A = {
+			isa = PBXBuildFile;
+			fileRef = 49AA1B3225AD07495825DF48;
+		};
+		263CFCA5A272E7C7C0C16E0E = {
+			isa = PBXBuildFile;
+			fileRef = B4FE97F10799662706DEA6D6;
+		};
+		55CD9448044FEDE0AB01DDF8 = {
+			isa = PBXBuildFile;
+			fileRef = B4D3824804A7FFD97D0DC9B6;
+		};
+		D5E14C930ECF6F1A9792E567 = {
+			isa = PBXBuildFile;
+			fileRef = 2D5F6ECA2BF8E36BBAB38E7B;
+		};
+		D22BDDD402FD23687F1AFF7C = {
+			isa = PBXBuildFile;
+			fileRef = E78450505430DD3A7C5AA6A5;
+		};
+		037A0FC0C804E28436E01B38 = {
+			isa = PBXBuildFile;
+			fileRef = FEA012AE8416473E11AEE012;
+		};
+		222B55F0CA950A21523B4B41 = {
+			isa = PBXBuildFile;
+			fileRef = 6915EA37B62BB8DBCD8278AD;
+		};
+		8D33571F6D14D72E61C2114D = {
+			isa = PBXBuildFile;
+			fileRef = 5A198567F3534EA9BF86BF23;
+		};
+		CF303401DEFBE6C021DD6395 = {
+			isa = PBXBuildFile;
+			fileRef = 3C9BDF3F8928F25C76A1A34C;
+		};
+		FC1C9734F02AD44E2833C946 = {
+			isa = PBXBuildFile;
+			fileRef = 3EADAA537BB9CE70C5E4DADB;
+		};
+		A94A0D7EF04BACC1E3FEF051 = {
+			isa = PBXBuildFile;
+			fileRef = 3B84CBD40D8489F8FAD074A9;
+		};
+		62369DB94B0359A139FE989D = {
+			isa = PBXBuildFile;
+			fileRef = 146AD477A171E619AB06D0F1;
+		};
+		AE230FA5E0B2A3315A6062C7 = {
+			isa = PBXBuildFile;
+			fileRef = 42D3599DC65D0C74F68D55D2;
+		};
+		1B46F706BA8B01ED29F88F07 = {
+			isa = PBXBuildFile;
+			fileRef = C41AAB1AD37C618CC49320F6;
+		};
+		189B7204936AFD9F14C476A7 = {
+			isa = PBXBuildFile;
+			fileRef = E075A82DAEE428D7FE682CB4;
+		};
+		4748F86057C93486941BF3D8 = {
+			isa = PBXBuildFile;
+			fileRef = 0A7ECAB8D11E3242780C5937;
+		};
+		E6285C49FAAF114FFC70FC6A = {
+			isa = PBXBuildFile;
+			fileRef = 75DB3FCFAFABBAEF3D54D857;
+		};
+		42834DFA7F21E3641D921FBE = {
+			isa = PBXBuildFile;
+			fileRef = 8048B37365D0AAA6283E386E;
+		};
+		08BD03B8F0BF26E3ED707521 = {
+			isa = PBXBuildFile;
+			fileRef = 66C0307E0A196C965A687639;
+		};
+		BACB709D8F9F9681C1D91CB4 = {
+			isa = PBXBuildFile;
+			fileRef = A8B013EA71524D74500EC16B;
+		};
+		0903771AE3C0097C42568614 = {
+			isa = PBXFileReference;
+			lastKnownFileType = wrapper.framework;
+			name = Accelerate.framework;
+			path = System/Library/Frameworks/Accelerate.framework;
+			sourceTree = SDKROOT;
+		};
+		0A7ECAB8D11E3242780C5937 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.objcpp;
+			name = "include_juce_dsp.mm";
+			path = "../../JuceLibraryCode/include_juce_dsp.mm";
+			sourceTree = "SOURCE_ROOT";
+		};
+		0FD75527F9BF713D50B69E71 = {
+			isa = PBXFileReference;
+			lastKnownFileType = wrapper.framework;
+			name = WebKit.framework;
+			path = System/Library/Frameworks/WebKit.framework;
+			sourceTree = SDKROOT;
+		};
+		11650A193BB983555CCC0B16 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = PluginProcessor.h;
+			path = ../../Source/PluginProcessor.h;
+			sourceTree = "SOURCE_ROOT";
+		};
+		12548D7299F1BACA773BEB4F = {
+			isa = PBXFileReference;
+			lastKnownFileType = file;
+			name = "juce_audio_plugin_client";
+			path = "/Users/land00m/Documents/JUCE/JUCE-master/modules/juce_audio_plugin_client";
+			sourceTree = "<absolute>";
+		};
+		1347FC9D511708E7B86B6428 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = JucePluginDefines.h;
+			path = ../../JuceLibraryCode/JucePluginDefines.h;
+			sourceTree = "SOURCE_ROOT";
+		};
+		135C60529785E5D986435A8D = {
+			isa = PBXFileReference;
+			lastKnownFileType = wrapper.framework;
+			name = Carbon.framework;
+			path = System/Library/Frameworks/Carbon.framework;
+			sourceTree = SDKROOT;
+		};
+		146AD477A171E619AB06D0F1 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.objcpp;
+			name = "include_juce_audio_processors.mm";
+			path = "../../JuceLibraryCode/include_juce_audio_processors.mm";
+			sourceTree = "SOURCE_ROOT";
+		};
+		203FE13679FCC71788EC84E4 = {
+			isa = PBXFileReference;
+			lastKnownFileType = file;
+			name = "juce_audio_processors";
+			path = "/Users/land00m/Documents/JUCE/JUCE-master/modules/juce_audio_processors";
+			sourceTree = "<absolute>";
+		};
+		2D5F6ECA2BF8E36BBAB38E7B = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.objcpp;
+			name = "include_juce_audio_formats.mm";
+			path = "../../JuceLibraryCode/include_juce_audio_formats.mm";
+			sourceTree = "SOURCE_ROOT";
+		};
+		2D801005184451302D19EFF7 = {
+			isa = PBXFileReference;
+			lastKnownFileType = wrapper.framework;
+			name = Foundation.framework;
+			path = System/Library/Frameworks/Foundation.framework;
+			sourceTree = SDKROOT;
+		};
+		3B84CBD40D8489F8FAD074A9 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = "include_juce_audio_plugin_client_VST3.cpp";
+			path = "../../JuceLibraryCode/include_juce_audio_plugin_client_VST3.cpp";
+			sourceTree = "SOURCE_ROOT";
+		};
+		3C9BDF3F8928F25C76A1A34C = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = "include_juce_audio_plugin_client_utils.cpp";
+			path = "../../JuceLibraryCode/include_juce_audio_plugin_client_utils.cpp";
+			sourceTree = "SOURCE_ROOT";
+		};
+		3EADAA537BB9CE70C5E4DADB = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.objcpp;
+			name = "include_juce_audio_plugin_client_VST_utils.mm";
+			path = "../../JuceLibraryCode/include_juce_audio_plugin_client_VST_utils.mm";
+			sourceTree = "SOURCE_ROOT";
+		};
+		41BE19E8949F24A4458F1DC7 = {
+			isa = PBXFileReference;
+			lastKnownFileType = text.plist.xml;
+			name = "Info-VST3.plist";
+			path = "Info-VST3.plist";
+			sourceTree = "SOURCE_ROOT";
+		};
+		42D3599DC65D0C74F68D55D2 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.objcpp;
+			name = "include_juce_audio_utils.mm";
+			path = "../../JuceLibraryCode/include_juce_audio_utils.mm";
+			sourceTree = "SOURCE_ROOT";
+		};
+		4786CAB7DCE617B8E75EDC92 = {
+			isa = PBXFileReference;
+			lastKnownFileType = file;
+			name = "juce_audio_basics";
+			path = "/Users/land00m/Documents/JUCE/JUCE-master/modules/juce_audio_basics";
+			sourceTree = "<absolute>";
+		};
+		49AA1B3225AD07495825DF48 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = BinaryData.cpp;
+			path = ../../JuceLibraryCode/BinaryData.cpp;
+			sourceTree = "SOURCE_ROOT";
+		};
+		4D02C5FCA72E74ACF97501DE = {
+			isa = PBXFileReference;
+			lastKnownFileType = file;
+			name = "juce_audio_formats";
+			path = "/Users/land00m/Documents/JUCE/JUCE-master/modules/juce_audio_formats";
+			sourceTree = "<absolute>";
+		};
+		4DA9495174840F771F3D8C2E = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = ViatorDial.h;
+			path = ../../Source/ViatorDial.h;
+			sourceTree = "SOURCE_ROOT";
+		};
+		5A198567F3534EA9BF86BF23 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = "include_juce_audio_plugin_client_Standalone.cpp";
+			path = "../../JuceLibraryCode/include_juce_audio_plugin_client_Standalone.cpp";
+			sourceTree = "SOURCE_ROOT";
+		};
+		5FB9D813B92F631262E81C1B = {
+			isa = PBXFileReference;
+			lastKnownFileType = wrapper.framework;
+			name = CoreAudio.framework;
+			path = System/Library/Frameworks/CoreAudio.framework;
+			sourceTree = SDKROOT;
+		};
+		643615838193364B98E72445 = {
+			isa = PBXFileReference;
+			lastKnownFileType = file;
+			name = "juce_dsp";
+			path = "/Users/land00m/Documents/JUCE/JUCE-master/modules/juce_dsp";
+			sourceTree = "<absolute>";
+		};
+		66C0307E0A196C965A687639 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.objcpp;
+			name = "include_juce_gui_basics.mm";
+			path = "../../JuceLibraryCode/include_juce_gui_basics.mm";
+			sourceTree = "SOURCE_ROOT";
+		};
+		6915EA37B62BB8DBCD8278AD = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.objcpp;
+			name = "include_juce_audio_plugin_client_AU_2.mm";
+			path = "../../JuceLibraryCode/include_juce_audio_plugin_client_AU_2.mm";
+			sourceTree = "SOURCE_ROOT";
+		};
+		6C43C3AA1F762330001996D7 = {
+			isa = PBXFileReference;
+			lastKnownFileType = file;
+			name = "juce_gui_basics";
+			path = "/Users/land00m/Documents/JUCE/JUCE-master/modules/juce_gui_basics";
+			sourceTree = "<absolute>";
+		};
+		706662E48510FD6294CEDEA2 = {
+			isa = PBXFileReference;
+			lastKnownFileType = file.wav;
+			name = metalOne.wav;
+			path = ../../Source/metalOne.wav;
+			sourceTree = "SOURCE_ROOT";
+		};
+		71930E5388DFB0039ED9F1E8 = {
+			isa = PBXFileReference;
+			lastKnownFileType = file;
+			name = "juce_audio_utils";
+			path = "/Users/land00m/Documents/JUCE/JUCE-master/modules/juce_audio_utils";
+			sourceTree = "<absolute>";
+		};
+		7246D7F5EEEF42225C6E0415 = {
+			isa = PBXFileReference;
+			lastKnownFileType = wrapper.framework;
+			name = AudioToolbox.framework;
+			path = System/Library/Frameworks/AudioToolbox.framework;
+			sourceTree = SDKROOT;
+		};
+		7488977BEB67100BD0560A0A = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = BinaryData.h;
+			path = ../../JuceLibraryCode/BinaryData.h;
+			sourceTree = "SOURCE_ROOT";
+		};
+		75DB3FCFAFABBAEF3D54D857 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.objcpp;
+			name = "include_juce_events.mm";
+			path = "../../JuceLibraryCode/include_juce_events.mm";
+			sourceTree = "SOURCE_ROOT";
+		};
+		782217CA342532680C7097E6 = {
+			isa = PBXFileReference;
+			lastKnownFileType = file;
+			name = "juce_events";
+			path = "/Users/land00m/Documents/JUCE/JUCE-master/modules/juce_events";
+			sourceTree = "<absolute>";
+		};
+		7B357F091DA99819E1F97D82 = {
+			isa = PBXFileReference;
+			lastKnownFileType = wrapper.framework;
+			name = Cocoa.framework;
+			path = System/Library/Frameworks/Cocoa.framework;
+			sourceTree = SDKROOT;
+		};
+		8048B37365D0AAA6283E386E = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.objcpp;
+			name = "include_juce_graphics.mm";
+			path = "../../JuceLibraryCode/include_juce_graphics.mm";
+			sourceTree = "SOURCE_ROOT";
+		};
+		9B83869A1EA5D4A3E78F5D59 = {
+			isa = PBXFileReference;
+			lastKnownFileType = text.plist.xml;
+			name = "Info-Standalone_Plugin.plist";
+			path = "Info-Standalone_Plugin.plist";
+			sourceTree = "SOURCE_ROOT";
+		};
+		9CE4886F5A0A63749B562A9A = {
+			isa = PBXFileReference;
+			lastKnownFileType = wrapper.framework;
+			name = CoreAudioKit.framework;
+			path = System/Library/Frameworks/CoreAudioKit.framework;
+			sourceTree = SDKROOT;
+		};
+		A714CB1940566811E0E771B4 = {
+			isa = PBXFileReference;
+			lastKnownFileType = wrapper.framework;
+			name = QuartzCore.framework;
+			path = System/Library/Frameworks/QuartzCore.framework;
+			sourceTree = SDKROOT;
+		};
+		A8B013EA71524D74500EC16B = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.objcpp;
+			name = "include_juce_gui_extra.mm";
+			path = "../../JuceLibraryCode/include_juce_gui_extra.mm";
+			sourceTree = "SOURCE_ROOT";
+		};
+		AEEE6181F9F180F0C64D3600 = {
+			isa = PBXFileReference;
+			lastKnownFileType = file;
+			name = "juce_gui_extra";
+			path = "/Users/land00m/Documents/JUCE/JUCE-master/modules/juce_gui_extra";
+			sourceTree = "<absolute>";
+		};
+		AF43C288D3C850A42CF9FBA9 = {
+			isa = PBXFileReference;
+			lastKnownFileType = wrapper.framework;
+			name = CoreMIDI.framework;
+			path = System/Library/Frameworks/CoreMIDI.framework;
+			sourceTree = SDKROOT;
+		};
+		B029FCA7AEAF9B1C806800B7 = {
+			isa = PBXFileReference;
+			lastKnownFileType = file.nib;
+			name = RecentFilesMenuTemplate.nib;
+			path = RecentFilesMenuTemplate.nib;
+			sourceTree = "SOURCE_ROOT";
+		};
+		B0CA1789F53681D22A57CD94 = {
+			isa = PBXFileReference;
+			lastKnownFileType = file;
+			name = "juce_audio_devices";
+			path = "/Users/land00m/Documents/JUCE/JUCE-master/modules/juce_audio_devices";
+			sourceTree = "<absolute>";
+		};
+		B16D97E96C3122561DCD7AFF = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = PluginEditor.h;
+			path = ../../Source/PluginEditor.h;
+			sourceTree = "SOURCE_ROOT";
+		};
+		B4240AAC4DFA4F3B5897F33A = {
+			isa = PBXFileReference;
+			lastKnownFileType = file;
+			name = "juce_data_structures";
+			path = "/Users/land00m/Documents/JUCE/JUCE-master/modules/juce_data_structures";
+			sourceTree = "<absolute>";
+		};
+		B4D3824804A7FFD97D0DC9B6 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.objcpp;
+			name = "include_juce_audio_devices.mm";
+			path = "../../JuceLibraryCode/include_juce_audio_devices.mm";
+			sourceTree = "SOURCE_ROOT";
+		};
+		B4FE97F10799662706DEA6D6 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.objcpp;
+			name = "include_juce_audio_basics.mm";
+			path = "../../JuceLibraryCode/include_juce_audio_basics.mm";
+			sourceTree = "SOURCE_ROOT";
+		};
+		BCE9E2ABB2AA52F758C02314 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = JuceHeader.h;
+			path = ../../JuceLibraryCode/JuceHeader.h;
+			sourceTree = "SOURCE_ROOT";
+		};
+		C41AAB1AD37C618CC49320F6 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.objcpp;
+			name = "include_juce_core.mm";
+			path = "../../JuceLibraryCode/include_juce_core.mm";
+			sourceTree = "SOURCE_ROOT";
+		};
+		C9546CE6EA482F416EB62BD2 = {
+			isa = PBXFileReference;
+			lastKnownFileType = wrapper.framework;
+			name = DiscRecording.framework;
+			path = System/Library/Frameworks/DiscRecording.framework;
+			sourceTree = SDKROOT;
+		};
+		D09B10B921780349215414EF = {
+			isa = PBXFileReference;
+			lastKnownFileType = file;
+			name = "juce_graphics";
+			path = "/Users/land00m/Documents/JUCE/JUCE-master/modules/juce_graphics";
+			sourceTree = "<absolute>";
+		};
+		D4EEB0FF5FFFCDFB414706E5 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = PluginProcessor.cpp;
+			path = ../../Source/PluginProcessor.cpp;
+			sourceTree = "SOURCE_ROOT";
+		};
+		DA7C7A6072A0F4773DEBB5E8 = {
+			isa = PBXFileReference;
+			lastKnownFileType = wrapper.framework;
+			name = IOKit.framework;
+			path = System/Library/Frameworks/IOKit.framework;
+			sourceTree = SDKROOT;
+		};
+		DAEE24BF5F168DB8A5B64631 = {
+			isa = PBXFileReference;
+			lastKnownFileType = file;
+			name = "juce_core";
+			path = "/Users/land00m/Documents/JUCE/JUCE-master/modules/juce_core";
+			sourceTree = "<absolute>";
+		};
+		DBFB7E17A0FEE79A16A71713 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = PluginEditor.cpp;
+			path = ../../Source/PluginEditor.cpp;
+			sourceTree = "SOURCE_ROOT";
+		};
+		E075A82DAEE428D7FE682CB4 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.objcpp;
+			name = "include_juce_data_structures.mm";
+			path = "../../JuceLibraryCode/include_juce_data_structures.mm";
+			sourceTree = "SOURCE_ROOT";
+		};
+		E63D6B6F7CFB37732A60A3C0 = {
+			isa = PBXFileReference;
+			explicitFileType = wrapper.cfbundle;
+			includeInIndex = 0;
+			path = "Guitar_Amp_Prototype_Intel_Mac.vst3";
+			sourceTree = "BUILT_PRODUCTS_DIR";
+		};
+		FAA41BB8416C6F59AE8BFCF3 = {
+			isa = PBXFileReference;
+			explicitFileType = wrapper.cfbundle;
+			includeInIndex = 0;
+			path = "Guitar_Amp_Prototype_Intel_Mac.component";
+			sourceTree = "BUILT_PRODUCTS_DIR";
+		};
+		E04D0C913FF18F7FB9FD6F3F = {
+			isa = PBXFileReference;
+			explicitFileType = wrapper.application;
+			includeInIndex = 0;
+			path = "Guitar_Amp_Prototype_Intel_Mac.app";
+			sourceTree = "BUILT_PRODUCTS_DIR";
+		};
+		E00DDB57C65B82E5E2C45817 = {
+			isa = PBXFileReference;
+			explicitFileType = archive.ar;
+			includeInIndex = 0;
+			path = "libGuitar_Amp_Prototype_Intel_Mac.a";
+			sourceTree = "BUILT_PRODUCTS_DIR";
+		};
+		E78450505430DD3A7C5AA6A5 = {
+			isa = PBXFileReference;
+			lastKnownFileType = file.r;
+			name = "include_juce_audio_plugin_client_AU.r";
+			path = "../../JuceLibraryCode/include_juce_audio_plugin_client_AU.r";
+			sourceTree = "SOURCE_ROOT";
+		};
+		EB44D74FB9C3F887CDC3BDBF = {
+			isa = PBXFileReference;
+			lastKnownFileType = wrapper.framework;
+			name = AudioUnit.framework;
+			path = System/Library/Frameworks/AudioUnit.framework;
+			sourceTree = SDKROOT;
+		};
+		EBC28A9C315BB20F9EF16760 = {
+			isa = PBXFileReference;
+			lastKnownFileType = text.plist.xml;
+			name = "Info-AU.plist";
+			path = "Info-AU.plist";
+			sourceTree = "SOURCE_ROOT";
+		};
+		FEA012AE8416473E11AEE012 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.objcpp;
+			name = "include_juce_audio_plugin_client_AU_1.mm";
+			path = "../../JuceLibraryCode/include_juce_audio_plugin_client_AU_1.mm";
+			sourceTree = "SOURCE_ROOT";
+		};
+		42B6854E1E6282BE99F3921D = {
+			isa = PBXGroup;
+			children = (
+				D4EEB0FF5FFFCDFB414706E5,
+				11650A193BB983555CCC0B16,
+				DBFB7E17A0FEE79A16A71713,
+				B16D97E96C3122561DCD7AFF,
+			);
+			name = Source;
+			sourceTree = "<group>";
+		};
+		0A79A181022C7ED2ECF6B73A = {
+			isa = PBXGroup;
+			children = (
+				42B6854E1E6282BE99F3921D,
+				706662E48510FD6294CEDEA2,
+				4DA9495174840F771F3D8C2E,
+			);
+			name = "Guitar_Amp_Prototype_Intel_Mac";
+			sourceTree = "<group>";
+		};
+		6B6468CA302FD615B339ED8C = {
+			isa = PBXGroup;
+			children = (
+				4786CAB7DCE617B8E75EDC92,
+				B0CA1789F53681D22A57CD94,
+				4D02C5FCA72E74ACF97501DE,
+				12548D7299F1BACA773BEB4F,
+				203FE13679FCC71788EC84E4,
+				71930E5388DFB0039ED9F1E8,
+				DAEE24BF5F168DB8A5B64631,
+				B4240AAC4DFA4F3B5897F33A,
+				643615838193364B98E72445,
+				782217CA342532680C7097E6,
+				D09B10B921780349215414EF,
+				6C43C3AA1F762330001996D7,
+				AEEE6181F9F180F0C64D3600,
+			);
+			name = "JUCE Modules";
+			sourceTree = "<group>";
+		};
+		319D5F73172E680F65718750 = {
+			isa = PBXGroup;
+			children = (
+				49AA1B3225AD07495825DF48,
+				7488977BEB67100BD0560A0A,
+				B4FE97F10799662706DEA6D6,
+				B4D3824804A7FFD97D0DC9B6,
+				2D5F6ECA2BF8E36BBAB38E7B,
+				E78450505430DD3A7C5AA6A5,
+				FEA012AE8416473E11AEE012,
+				6915EA37B62BB8DBCD8278AD,
+				5A198567F3534EA9BF86BF23,
+				3C9BDF3F8928F25C76A1A34C,
+				3EADAA537BB9CE70C5E4DADB,
+				3B84CBD40D8489F8FAD074A9,
+				146AD477A171E619AB06D0F1,
+				42D3599DC65D0C74F68D55D2,
+				C41AAB1AD37C618CC49320F6,
+				E075A82DAEE428D7FE682CB4,
+				0A7ECAB8D11E3242780C5937,
+				75DB3FCFAFABBAEF3D54D857,
+				8048B37365D0AAA6283E386E,
+				66C0307E0A196C965A687639,
+				A8B013EA71524D74500EC16B,
+				BCE9E2ABB2AA52F758C02314,
+				1347FC9D511708E7B86B6428,
+			);
+			name = "JUCE Library Code";
+			sourceTree = "<group>";
+		};
+		194F8CD27372EFD7DE58FDF6 = {
+			isa = PBXGroup;
+			children = (
+				41BE19E8949F24A4458F1DC7,
+				EBC28A9C315BB20F9EF16760,
+				9B83869A1EA5D4A3E78F5D59,
+				B029FCA7AEAF9B1C806800B7,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		72831E2632C1E18F1E8629E4 = {
+			isa = PBXGroup;
+			children = (
+				EB44D74FB9C3F887CDC3BDBF,
+				0903771AE3C0097C42568614,
+				7246D7F5EEEF42225C6E0415,
+				135C60529785E5D986435A8D,
+				7B357F091DA99819E1F97D82,
+				5FB9D813B92F631262E81C1B,
+				9CE4886F5A0A63749B562A9A,
+				AF43C288D3C850A42CF9FBA9,
+				C9546CE6EA482F416EB62BD2,
+				2D801005184451302D19EFF7,
+				DA7C7A6072A0F4773DEBB5E8,
+				A714CB1940566811E0E771B4,
+				0FD75527F9BF713D50B69E71,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		02297391073F785ACCA055A7 = {
+			isa = PBXGroup;
+			children = (
+				E63D6B6F7CFB37732A60A3C0,
+				FAA41BB8416C6F59AE8BFCF3,
+				E04D0C913FF18F7FB9FD6F3F,
+				E00DDB57C65B82E5E2C45817,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		079E4A694CE2D9C5474A254F = {
+			isa = PBXGroup;
+			children = (
+				0A79A181022C7ED2ECF6B73A,
+				6B6468CA302FD615B339ED8C,
+				319D5F73172E680F65718750,
+				194F8CD27372EFD7DE58FDF6,
+				72831E2632C1E18F1E8629E4,
+				02297391073F785ACCA055A7,
+			);
+			name = Source;
+			sourceTree = "<group>";
+		};
+		82F7C077B93F5F41DAB59D8B = {
+			isa = PBXTargetDependency;
+			target = 970E21FBA0F7BF4FFFBCA4B1;
+		};
+		58C017F30A4FCC0C7FA2A503 = {
+			isa = PBXTargetDependency;
+			target = 8C606C90B77AEEF583FC2875;
+		};
+		961FE5F058844EEE5BE321DF = {
+			isa = PBXTargetDependency;
+			target = 486A508F493FE48ACAA1D26F;
+		};
+		0B7989615C3D4F488257ADFB = {
+			isa = PBXTargetDependency;
+			target = A5ECBB9D7F8D440AF3E79DC9;
+		};
+		1A12940CEA67A3CF6467FD6C = {
+			isa = PBXTargetDependency;
+			target = A5ECBB9D7F8D440AF3E79DC9;
+		};
+		9914C763DBED02EBCFC477B4 = {
+			isa = PBXTargetDependency;
+			target = A5ECBB9D7F8D440AF3E79DC9;
+		};
+		4741FBF2937D069A194ADBF4 = {
+			isa = PBXTargetDependency;
+			target = A5ECBB9D7F8D440AF3E79DC9;
+		};
+		AC1CDA26EFF23DD846134A2A = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		9C3712FD1EA3FCB6DBD1E088 = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		CFEBD021A02816C997CAC620 = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_LINK_OBJC_RUNTIME = NO;
+				CODE_SIGN_IDENTITY = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "$(PROJECT_DIR)/build/$(CONFIGURATION)";
+				COPY_PHASE_STRIP = NO;
+				DEPLOYMENT_LOCATION = YES;
+				DSTROOT = /;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"_DEBUG=1",
+					"DEBUG=1",
+					"JUCE_DISPLAY_SPLASH_SCREEN=1",
+					"JUCE_USE_DARK_SPLASH_SCREEN=1",
+					"JUCE_PROJUCER_VERSION=0x60005",
+					"JUCE_MODULE_AVAILABLE_juce_audio_basics=1",
+					"JUCE_MODULE_AVAILABLE_juce_audio_devices=1",
+					"JUCE_MODULE_AVAILABLE_juce_audio_formats=1",
+					"JUCE_MODULE_AVAILABLE_juce_audio_plugin_client=1",
+					"JUCE_MODULE_AVAILABLE_juce_audio_processors=1",
+					"JUCE_MODULE_AVAILABLE_juce_audio_utils=1",
+					"JUCE_MODULE_AVAILABLE_juce_core=1",
+					"JUCE_MODULE_AVAILABLE_juce_data_structures=1",
+					"JUCE_MODULE_AVAILABLE_juce_dsp=1",
+					"JUCE_MODULE_AVAILABLE_juce_events=1",
+					"JUCE_MODULE_AVAILABLE_juce_graphics=1",
+					"JUCE_MODULE_AVAILABLE_juce_gui_basics=1",
+					"JUCE_MODULE_AVAILABLE_juce_gui_extra=1",
+					"JUCE_GLOBAL_MODULE_SETTINGS_INCLUDED=1",
+					"JUCE_VST3_CAN_REPLACE_VST2=0",
+					"JUCE_STRICT_REFCOUNTEDPOINTER=1",
+					"JucePlugin_Build_VST=0",
+					"JucePlugin_Build_VST3=1",
+					"JucePlugin_Build_AU=0",
+					"JucePlugin_Build_AUv3=0",
+					"JucePlugin_Build_RTAS=0",
+					"JucePlugin_Build_AAX=0",
+					"JucePlugin_Build_Standalone=0",
+					"JucePlugin_Build_Unity=0",
+					"JucePlugin_Enable_IAA=0",
+					"JucePlugin_Name=\\\"Diode\\ Amplifier\\\"",
+					"JucePlugin_Desc=\\\"Guitar_Amp_Prototype_Intel_Mac\\\"",
+					"JucePlugin_Manufacturer=\\\"Viator\\ DSP\\\"",
+					"JucePlugin_ManufacturerWebsite=\\\"\\\"",
+					"JucePlugin_ManufacturerEmail=\\\"\\\"",
+					"JucePlugin_ManufacturerCode=0x4d616e75",
+					"JucePlugin_PluginCode=0x476e6869",
+					"JucePlugin_IsSynth=0",
+					"JucePlugin_WantsMidiInput=0",
+					"JucePlugin_ProducesMidiOutput=0",
+					"JucePlugin_IsMidiEffect=0",
+					"JucePlugin_EditorRequiresKeyboardFocus=0",
+					"JucePlugin_Version=1.0.0",
+					"JucePlugin_VersionCode=0x10000",
+					"JucePlugin_VersionString=\\\"1.0.0\\\"",
+					"JucePlugin_VSTUniqueID=JucePlugin_PluginCode",
+					"JucePlugin_VSTCategory=kPlugCategEffect",
+					"JucePlugin_Vst3Category=\\\"Fx\\\"",
+					"JucePlugin_AUMainType='aufx'",
+					"JucePlugin_AUSubType=JucePlugin_PluginCode",
+					"JucePlugin_AUExportPrefix=Guitar_Amp_Prototype_Intel_MacAU",
+					"JucePlugin_AUExportPrefixQuoted=\\\"Guitar_Amp_Prototype_Intel_MacAU\\\"",
+					"JucePlugin_AUManufacturerCode=JucePlugin_ManufacturerCode",
+					"JucePlugin_CFBundleIdentifier=com.yourcompany.Guitar_Amp_Prototype_Intel_Mac",
+					"JucePlugin_RTASCategory=0",
+					"JucePlugin_RTASManufacturerCode=JucePlugin_ManufacturerCode",
+					"JucePlugin_RTASProductId=JucePlugin_PluginCode",
+					"JucePlugin_RTASDisableBypass=0",
+					"JucePlugin_RTASDisableMultiMono=0",
+					"JucePlugin_AAXIdentifier=com.yourcompany.Guitar_Amp_Prototype_Intel_Mac",
+					"JucePlugin_AAXManufacturerCode=JucePlugin_ManufacturerCode",
+					"JucePlugin_AAXProductId=JucePlugin_PluginCode",
+					"JucePlugin_AAXCategory=0",
+					"JucePlugin_AAXDisableBypass=0",
+					"JucePlugin_AAXDisableMultiMono=0",
+					"JucePlugin_IAAType=0x61757278",
+					"JucePlugin_IAASubType=JucePlugin_PluginCode",
+					"JucePlugin_IAAName=\\\"Viator\\ DSP:\\ Diode\\ Amplifier\\\"",
+					"JucePlugin_VSTNumMidiInputs=16",
+					"JucePlugin_VSTNumMidiOutputs=16",
+					"JUCE_STANDALONE_APPLICATION=JucePlugin_Build_Standalone",
+					"JUCER_XCODE_MAC_F6D2F4CF=1",
+					"JUCE_APP_VERSION=1.0.0",
+					"JUCE_APP_VERSION_HEX=0x10000",
+				);
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GENERATE_PKGINFO_FILE = YES;
+				HEADER_SEARCH_PATHS = (
+					"/Users/land00m/Documents/JUCE/JUCE-master/modules/juce_audio_processors/format_types/VST3_SDK",
+					"../../JuceLibraryCode",
+					"/Users/land00m/Documents/JUCE/JUCE-master/modules",
+					"/Users/land00m/Documents/JUCE/JUCE-master/modules/juce_audio_plugin_client",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = Info-VST3.plist;
+				INFOPLIST_PREPROCESS = NO;
+				INSTALL_PATH = "$(HOME)/Library/Audio/Plug-Ins/VST3/";
+				LIBRARY_STYLE = Bundle;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_HEADER_SEARCH_PATHS = (
+					"/Users/land00m/Documents/JUCE/JUCE-master/modules/juce_audio_processors/format_types/VST3_SDK",
+					"../../JuceLibraryCode",
+					"/Users/land00m/Documents/JUCE/JUCE-master/modules",
+					"/Users/land00m/Documents/JUCE/JUCE-master/modules/juce_audio_plugin_client",
+				);
+				OTHER_LDFLAGS = "-bundle -lGuitar_Amp_Prototype_Intel_Mac";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yourcompany.Guitar_Amp_Prototype_Intel_Mac;
+				PRODUCT_NAME = "Guitar_Amp_Prototype_Intel_Mac";
+				USE_HEADERMAP = NO;
+				VALID_ARCHS = "i386 x86_64 arm64 arm64e";
+				WRAPPER_EXTENSION = vst3;
+			};
+			name = Debug;
+		};
+		1783133F448A7E2A654FDF26 = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_LINK_OBJC_RUNTIME = NO;
+				CODE_SIGN_IDENTITY = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "$(PROJECT_DIR)/build/$(CONFIGURATION)";
+				DEAD_CODE_STRIPPING = YES;
+				DEPLOYMENT_LOCATION = YES;
+				DSTROOT = /;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"_NDEBUG=1",
+					"NDEBUG=1",
+					"JUCE_DISPLAY_SPLASH_SCREEN=1",
+					"JUCE_USE_DARK_SPLASH_SCREEN=1",
+					"JUCE_PROJUCER_VERSION=0x60005",
+					"JUCE_MODULE_AVAILABLE_juce_audio_basics=1",
+					"JUCE_MODULE_AVAILABLE_juce_audio_devices=1",
+					"JUCE_MODULE_AVAILABLE_juce_audio_formats=1",
+					"JUCE_MODULE_AVAILABLE_juce_audio_plugin_client=1",
+					"JUCE_MODULE_AVAILABLE_juce_audio_processors=1",
+					"JUCE_MODULE_AVAILABLE_juce_audio_utils=1",
+					"JUCE_MODULE_AVAILABLE_juce_core=1",
+					"JUCE_MODULE_AVAILABLE_juce_data_structures=1",
+					"JUCE_MODULE_AVAILABLE_juce_dsp=1",
+					"JUCE_MODULE_AVAILABLE_juce_events=1",
+					"JUCE_MODULE_AVAILABLE_juce_graphics=1",
+					"JUCE_MODULE_AVAILABLE_juce_gui_basics=1",
+					"JUCE_MODULE_AVAILABLE_juce_gui_extra=1",
+					"JUCE_GLOBAL_MODULE_SETTINGS_INCLUDED=1",
+					"JUCE_VST3_CAN_REPLACE_VST2=0",
+					"JUCE_STRICT_REFCOUNTEDPOINTER=1",
+					"JucePlugin_Build_VST=0",
+					"JucePlugin_Build_VST3=1",
+					"JucePlugin_Build_AU=0",
+					"JucePlugin_Build_AUv3=0",
+					"JucePlugin_Build_RTAS=0",
+					"JucePlugin_Build_AAX=0",
+					"JucePlugin_Build_Standalone=0",
+					"JucePlugin_Build_Unity=0",
+					"JucePlugin_Enable_IAA=0",
+					"JucePlugin_Name=\\\"Diode\\ Amplifier\\\"",
+					"JucePlugin_Desc=\\\"Guitar_Amp_Prototype_Intel_Mac\\\"",
+					"JucePlugin_Manufacturer=\\\"Viator\\ DSP\\\"",
+					"JucePlugin_ManufacturerWebsite=\\\"\\\"",
+					"JucePlugin_ManufacturerEmail=\\\"\\\"",
+					"JucePlugin_ManufacturerCode=0x4d616e75",
+					"JucePlugin_PluginCode=0x476e6869",
+					"JucePlugin_IsSynth=0",
+					"JucePlugin_WantsMidiInput=0",
+					"JucePlugin_ProducesMidiOutput=0",
+					"JucePlugin_IsMidiEffect=0",
+					"JucePlugin_EditorRequiresKeyboardFocus=0",
+					"JucePlugin_Version=1.0.0",
+					"JucePlugin_VersionCode=0x10000",
+					"JucePlugin_VersionString=\\\"1.0.0\\\"",
+					"JucePlugin_VSTUniqueID=JucePlugin_PluginCode",
+					"JucePlugin_VSTCategory=kPlugCategEffect",
+					"JucePlugin_Vst3Category=\\\"Fx\\\"",
+					"JucePlugin_AUMainType='aufx'",
+					"JucePlugin_AUSubType=JucePlugin_PluginCode",
+					"JucePlugin_AUExportPrefix=Guitar_Amp_Prototype_Intel_MacAU",
+					"JucePlugin_AUExportPrefixQuoted=\\\"Guitar_Amp_Prototype_Intel_MacAU\\\"",
+					"JucePlugin_AUManufacturerCode=JucePlugin_ManufacturerCode",
+					"JucePlugin_CFBundleIdentifier=com.yourcompany.Guitar_Amp_Prototype_Intel_Mac",
+					"JucePlugin_RTASCategory=0",
+					"JucePlugin_RTASManufacturerCode=JucePlugin_ManufacturerCode",
+					"JucePlugin_RTASProductId=JucePlugin_PluginCode",
+					"JucePlugin_RTASDisableBypass=0",
+					"JucePlugin_RTASDisableMultiMono=0",
+					"JucePlugin_AAXIdentifier=com.yourcompany.Guitar_Amp_Prototype_Intel_Mac",
+					"JucePlugin_AAXManufacturerCode=JucePlugin_ManufacturerCode",
+					"JucePlugin_AAXProductId=JucePlugin_PluginCode",
+					"JucePlugin_AAXCategory=0",
+					"JucePlugin_AAXDisableBypass=0",
+					"JucePlugin_AAXDisableMultiMono=0",
+					"JucePlugin_IAAType=0x61757278",
+					"JucePlugin_IAASubType=JucePlugin_PluginCode",
+					"JucePlugin_IAAName=\\\"Viator\\ DSP:\\ Diode\\ Amplifier\\\"",
+					"JucePlugin_VSTNumMidiInputs=16",
+					"JucePlugin_VSTNumMidiOutputs=16",
+					"JUCE_STANDALONE_APPLICATION=JucePlugin_Build_Standalone",
+					"JUCER_XCODE_MAC_F6D2F4CF=1",
+					"JUCE_APP_VERSION=1.0.0",
+					"JUCE_APP_VERSION_HEX=0x10000",
+				);
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GENERATE_PKGINFO_FILE = YES;
+				HEADER_SEARCH_PATHS = (
+					"/Users/land00m/Documents/JUCE/JUCE-master/modules/juce_audio_processors/format_types/VST3_SDK",
+					"../../JuceLibraryCode",
+					"/Users/land00m/Documents/JUCE/JUCE-master/modules",
+					"/Users/land00m/Documents/JUCE/JUCE-master/modules/juce_audio_plugin_client",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = Info-VST3.plist;
+				INFOPLIST_PREPROCESS = NO;
+				INSTALL_PATH = "$(HOME)/Library/Audio/Plug-Ins/VST3/";
+				LIBRARY_STYLE = Bundle;
+				LLVM_LTO = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_HEADER_SEARCH_PATHS = (
+					"/Users/land00m/Documents/JUCE/JUCE-master/modules/juce_audio_processors/format_types/VST3_SDK",
+					"../../JuceLibraryCode",
+					"/Users/land00m/Documents/JUCE/JUCE-master/modules",
+					"/Users/land00m/Documents/JUCE/JUCE-master/modules/juce_audio_plugin_client",
+				);
+				OTHER_LDFLAGS = "-bundle -lGuitar_Amp_Prototype_Intel_Mac";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yourcompany.Guitar_Amp_Prototype_Intel_Mac;
+				PRODUCT_NAME = "Guitar_Amp_Prototype_Intel_Mac";
+				USE_HEADERMAP = NO;
+				VALID_ARCHS = "i386 x86_64 arm64 arm64e";
+				WRAPPER_EXTENSION = vst3;
+			};
+			name = Release;
+		};
+		DE038823941C4F1F477D61A8 = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_LINK_OBJC_RUNTIME = NO;
+				CODE_SIGN_IDENTITY = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "$(PROJECT_DIR)/build/$(CONFIGURATION)";
+				COPY_PHASE_STRIP = NO;
+				DEPLOYMENT_LOCATION = YES;
+				DSTROOT = /;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"_DEBUG=1",
+					"DEBUG=1",
+					"JUCE_DISPLAY_SPLASH_SCREEN=1",
+					"JUCE_USE_DARK_SPLASH_SCREEN=1",
+					"JUCE_PROJUCER_VERSION=0x60005",
+					"JUCE_MODULE_AVAILABLE_juce_audio_basics=1",
+					"JUCE_MODULE_AVAILABLE_juce_audio_devices=1",
+					"JUCE_MODULE_AVAILABLE_juce_audio_formats=1",
+					"JUCE_MODULE_AVAILABLE_juce_audio_plugin_client=1",
+					"JUCE_MODULE_AVAILABLE_juce_audio_processors=1",
+					"JUCE_MODULE_AVAILABLE_juce_audio_utils=1",
+					"JUCE_MODULE_AVAILABLE_juce_core=1",
+					"JUCE_MODULE_AVAILABLE_juce_data_structures=1",
+					"JUCE_MODULE_AVAILABLE_juce_dsp=1",
+					"JUCE_MODULE_AVAILABLE_juce_events=1",
+					"JUCE_MODULE_AVAILABLE_juce_graphics=1",
+					"JUCE_MODULE_AVAILABLE_juce_gui_basics=1",
+					"JUCE_MODULE_AVAILABLE_juce_gui_extra=1",
+					"JUCE_GLOBAL_MODULE_SETTINGS_INCLUDED=1",
+					"JUCE_VST3_CAN_REPLACE_VST2=0",
+					"JUCE_STRICT_REFCOUNTEDPOINTER=1",
+					"JucePlugin_Build_VST=0",
+					"JucePlugin_Build_VST3=0",
+					"JucePlugin_Build_AU=1",
+					"JucePlugin_Build_AUv3=0",
+					"JucePlugin_Build_RTAS=0",
+					"JucePlugin_Build_AAX=0",
+					"JucePlugin_Build_Standalone=0",
+					"JucePlugin_Build_Unity=0",
+					"JucePlugin_Enable_IAA=0",
+					"JucePlugin_Name=\\\"Diode\\ Amplifier\\\"",
+					"JucePlugin_Desc=\\\"Guitar_Amp_Prototype_Intel_Mac\\\"",
+					"JucePlugin_Manufacturer=\\\"Viator\\ DSP\\\"",
+					"JucePlugin_ManufacturerWebsite=\\\"\\\"",
+					"JucePlugin_ManufacturerEmail=\\\"\\\"",
+					"JucePlugin_ManufacturerCode=0x4d616e75",
+					"JucePlugin_PluginCode=0x476e6869",
+					"JucePlugin_IsSynth=0",
+					"JucePlugin_WantsMidiInput=0",
+					"JucePlugin_ProducesMidiOutput=0",
+					"JucePlugin_IsMidiEffect=0",
+					"JucePlugin_EditorRequiresKeyboardFocus=0",
+					"JucePlugin_Version=1.0.0",
+					"JucePlugin_VersionCode=0x10000",
+					"JucePlugin_VersionString=\\\"1.0.0\\\"",
+					"JucePlugin_VSTUniqueID=JucePlugin_PluginCode",
+					"JucePlugin_VSTCategory=kPlugCategEffect",
+					"JucePlugin_Vst3Category=\\\"Fx\\\"",
+					"JucePlugin_AUMainType='aufx'",
+					"JucePlugin_AUSubType=JucePlugin_PluginCode",
+					"JucePlugin_AUExportPrefix=Guitar_Amp_Prototype_Intel_MacAU",
+					"JucePlugin_AUExportPrefixQuoted=\\\"Guitar_Amp_Prototype_Intel_MacAU\\\"",
+					"JucePlugin_AUManufacturerCode=JucePlugin_ManufacturerCode",
+					"JucePlugin_CFBundleIdentifier=com.yourcompany.Guitar_Amp_Prototype_Intel_Mac",
+					"JucePlugin_RTASCategory=0",
+					"JucePlugin_RTASManufacturerCode=JucePlugin_ManufacturerCode",
+					"JucePlugin_RTASProductId=JucePlugin_PluginCode",
+					"JucePlugin_RTASDisableBypass=0",
+					"JucePlugin_RTASDisableMultiMono=0",
+					"JucePlugin_AAXIdentifier=com.yourcompany.Guitar_Amp_Prototype_Intel_Mac",
+					"JucePlugin_AAXManufacturerCode=JucePlugin_ManufacturerCode",
+					"JucePlugin_AAXProductId=JucePlugin_PluginCode",
+					"JucePlugin_AAXCategory=0",
+					"JucePlugin_AAXDisableBypass=0",
+					"JucePlugin_AAXDisableMultiMono=0",
+					"JucePlugin_IAAType=0x61757278",
+					"JucePlugin_IAASubType=JucePlugin_PluginCode",
+					"JucePlugin_IAAName=\\\"Viator\\ DSP:\\ Diode\\ Amplifier\\\"",
+					"JucePlugin_VSTNumMidiInputs=16",
+					"JucePlugin_VSTNumMidiOutputs=16",
+					"JUCE_STANDALONE_APPLICATION=JucePlugin_Build_Standalone",
+					"JUCER_XCODE_MAC_F6D2F4CF=1",
+					"JUCE_APP_VERSION=1.0.0",
+					"JUCE_APP_VERSION_HEX=0x10000",
+				);
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GENERATE_PKGINFO_FILE = YES;
+				HEADER_SEARCH_PATHS = (
+					"/Users/land00m/Documents/JUCE/JUCE-master/modules/juce_audio_processors/format_types/VST3_SDK",
+					"../../JuceLibraryCode",
+					"/Users/land00m/Documents/JUCE/JUCE-master/modules",
+					"/Users/land00m/Documents/JUCE/JUCE-master/modules/juce_audio_plugin_client",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = Info-AU.plist;
+				INFOPLIST_PREPROCESS = NO;
+				INSTALL_PATH = "$(HOME)/Library/Audio/Plug-Ins/Components/";
+				LIBRARY_STYLE = Bundle;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_HEADER_SEARCH_PATHS = (
+					"/Users/land00m/Documents/JUCE/JUCE-master/modules/juce_audio_processors/format_types/VST3_SDK",
+					"../../JuceLibraryCode",
+					"/Users/land00m/Documents/JUCE/JUCE-master/modules",
+					"/Users/land00m/Documents/JUCE/JUCE-master/modules/juce_audio_plugin_client",
+				);
+				OTHER_LDFLAGS = "-bundle -lGuitar_Amp_Prototype_Intel_Mac";
+				OTHER_REZFLAGS = "-d ppc_$ppc -d i386_$i386 -d ppc64_$ppc64 -d x86_64_$x86_64 -I /System/Library/Frameworks/CoreServices.framework/Frameworks/CarbonCore.framework/Versions/A/Headers -I \"$(DEVELOPER_DIR)/Extras/CoreAudio/AudioUnits/AUPublic/AUBase\" -I \"$(DEVELOPER_DIR)/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/AudioUnit.framework/Headers\"";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yourcompany.Guitar_Amp_Prototype_Intel_Mac;
+				PRODUCT_NAME = "Guitar_Amp_Prototype_Intel_Mac";
+				USE_HEADERMAP = NO;
+				VALID_ARCHS = "i386 x86_64 arm64 arm64e";
+				WRAPPER_EXTENSION = component;
+			};
+			name = Debug;
+		};
+		FA20CA4213ED2712F30C187C = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_LINK_OBJC_RUNTIME = NO;
+				CODE_SIGN_IDENTITY = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "$(PROJECT_DIR)/build/$(CONFIGURATION)";
+				DEAD_CODE_STRIPPING = YES;
+				DEPLOYMENT_LOCATION = YES;
+				DSTROOT = /;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"_NDEBUG=1",
+					"NDEBUG=1",
+					"JUCE_DISPLAY_SPLASH_SCREEN=1",
+					"JUCE_USE_DARK_SPLASH_SCREEN=1",
+					"JUCE_PROJUCER_VERSION=0x60005",
+					"JUCE_MODULE_AVAILABLE_juce_audio_basics=1",
+					"JUCE_MODULE_AVAILABLE_juce_audio_devices=1",
+					"JUCE_MODULE_AVAILABLE_juce_audio_formats=1",
+					"JUCE_MODULE_AVAILABLE_juce_audio_plugin_client=1",
+					"JUCE_MODULE_AVAILABLE_juce_audio_processors=1",
+					"JUCE_MODULE_AVAILABLE_juce_audio_utils=1",
+					"JUCE_MODULE_AVAILABLE_juce_core=1",
+					"JUCE_MODULE_AVAILABLE_juce_data_structures=1",
+					"JUCE_MODULE_AVAILABLE_juce_dsp=1",
+					"JUCE_MODULE_AVAILABLE_juce_events=1",
+					"JUCE_MODULE_AVAILABLE_juce_graphics=1",
+					"JUCE_MODULE_AVAILABLE_juce_gui_basics=1",
+					"JUCE_MODULE_AVAILABLE_juce_gui_extra=1",
+					"JUCE_GLOBAL_MODULE_SETTINGS_INCLUDED=1",
+					"JUCE_VST3_CAN_REPLACE_VST2=0",
+					"JUCE_STRICT_REFCOUNTEDPOINTER=1",
+					"JucePlugin_Build_VST=0",
+					"JucePlugin_Build_VST3=0",
+					"JucePlugin_Build_AU=1",
+					"JucePlugin_Build_AUv3=0",
+					"JucePlugin_Build_RTAS=0",
+					"JucePlugin_Build_AAX=0",
+					"JucePlugin_Build_Standalone=0",
+					"JucePlugin_Build_Unity=0",
+					"JucePlugin_Enable_IAA=0",
+					"JucePlugin_Name=\\\"Diode\\ Amplifier\\\"",
+					"JucePlugin_Desc=\\\"Guitar_Amp_Prototype_Intel_Mac\\\"",
+					"JucePlugin_Manufacturer=\\\"Viator\\ DSP\\\"",
+					"JucePlugin_ManufacturerWebsite=\\\"\\\"",
+					"JucePlugin_ManufacturerEmail=\\\"\\\"",
+					"JucePlugin_ManufacturerCode=0x4d616e75",
+					"JucePlugin_PluginCode=0x476e6869",
+					"JucePlugin_IsSynth=0",
+					"JucePlugin_WantsMidiInput=0",
+					"JucePlugin_ProducesMidiOutput=0",
+					"JucePlugin_IsMidiEffect=0",
+					"JucePlugin_EditorRequiresKeyboardFocus=0",
+					"JucePlugin_Version=1.0.0",
+					"JucePlugin_VersionCode=0x10000",
+					"JucePlugin_VersionString=\\\"1.0.0\\\"",
+					"JucePlugin_VSTUniqueID=JucePlugin_PluginCode",
+					"JucePlugin_VSTCategory=kPlugCategEffect",
+					"JucePlugin_Vst3Category=\\\"Fx\\\"",
+					"JucePlugin_AUMainType='aufx'",
+					"JucePlugin_AUSubType=JucePlugin_PluginCode",
+					"JucePlugin_AUExportPrefix=Guitar_Amp_Prototype_Intel_MacAU",
+					"JucePlugin_AUExportPrefixQuoted=\\\"Guitar_Amp_Prototype_Intel_MacAU\\\"",
+					"JucePlugin_AUManufacturerCode=JucePlugin_ManufacturerCode",
+					"JucePlugin_CFBundleIdentifier=com.yourcompany.Guitar_Amp_Prototype_Intel_Mac",
+					"JucePlugin_RTASCategory=0",
+					"JucePlugin_RTASManufacturerCode=JucePlugin_ManufacturerCode",
+					"JucePlugin_RTASProductId=JucePlugin_PluginCode",
+					"JucePlugin_RTASDisableBypass=0",
+					"JucePlugin_RTASDisableMultiMono=0",
+					"JucePlugin_AAXIdentifier=com.yourcompany.Guitar_Amp_Prototype_Intel_Mac",
+					"JucePlugin_AAXManufacturerCode=JucePlugin_ManufacturerCode",
+					"JucePlugin_AAXProductId=JucePlugin_PluginCode",
+					"JucePlugin_AAXCategory=0",
+					"JucePlugin_AAXDisableBypass=0",
+					"JucePlugin_AAXDisableMultiMono=0",
+					"JucePlugin_IAAType=0x61757278",
+					"JucePlugin_IAASubType=JucePlugin_PluginCode",
+					"JucePlugin_IAAName=\\\"Viator\\ DSP:\\ Diode\\ Amplifier\\\"",
+					"JucePlugin_VSTNumMidiInputs=16",
+					"JucePlugin_VSTNumMidiOutputs=16",
+					"JUCE_STANDALONE_APPLICATION=JucePlugin_Build_Standalone",
+					"JUCER_XCODE_MAC_F6D2F4CF=1",
+					"JUCE_APP_VERSION=1.0.0",
+					"JUCE_APP_VERSION_HEX=0x10000",
+				);
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GENERATE_PKGINFO_FILE = YES;
+				HEADER_SEARCH_PATHS = (
+					"/Users/land00m/Documents/JUCE/JUCE-master/modules/juce_audio_processors/format_types/VST3_SDK",
+					"../../JuceLibraryCode",
+					"/Users/land00m/Documents/JUCE/JUCE-master/modules",
+					"/Users/land00m/Documents/JUCE/JUCE-master/modules/juce_audio_plugin_client",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = Info-AU.plist;
+				INFOPLIST_PREPROCESS = NO;
+				INSTALL_PATH = "$(HOME)/Library/Audio/Plug-Ins/Components/";
+				LIBRARY_STYLE = Bundle;
+				LLVM_LTO = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_HEADER_SEARCH_PATHS = (
+					"/Users/land00m/Documents/JUCE/JUCE-master/modules/juce_audio_processors/format_types/VST3_SDK",
+					"../../JuceLibraryCode",
+					"/Users/land00m/Documents/JUCE/JUCE-master/modules",
+					"/Users/land00m/Documents/JUCE/JUCE-master/modules/juce_audio_plugin_client",
+				);
+				OTHER_LDFLAGS = "-bundle -lGuitar_Amp_Prototype_Intel_Mac";
+				OTHER_REZFLAGS = "-d ppc_$ppc -d i386_$i386 -d ppc64_$ppc64 -d x86_64_$x86_64 -I /System/Library/Frameworks/CoreServices.framework/Frameworks/CarbonCore.framework/Versions/A/Headers -I \"$(DEVELOPER_DIR)/Extras/CoreAudio/AudioUnits/AUPublic/AUBase\" -I \"$(DEVELOPER_DIR)/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/AudioUnit.framework/Headers\"";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yourcompany.Guitar_Amp_Prototype_Intel_Mac;
+				PRODUCT_NAME = "Guitar_Amp_Prototype_Intel_Mac";
+				USE_HEADERMAP = NO;
+				VALID_ARCHS = "i386 x86_64 arm64 arm64e";
+				WRAPPER_EXTENSION = component;
+			};
+			name = Release;
+		};
+		74069E577654FA2FE42C2E8B = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_LINK_OBJC_RUNTIME = NO;
+				CODE_SIGN_IDENTITY = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "$(PROJECT_DIR)/build/$(CONFIGURATION)";
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"_DEBUG=1",
+					"DEBUG=1",
+					"JUCE_DISPLAY_SPLASH_SCREEN=1",
+					"JUCE_USE_DARK_SPLASH_SCREEN=1",
+					"JUCE_PROJUCER_VERSION=0x60005",
+					"JUCE_MODULE_AVAILABLE_juce_audio_basics=1",
+					"JUCE_MODULE_AVAILABLE_juce_audio_devices=1",
+					"JUCE_MODULE_AVAILABLE_juce_audio_formats=1",
+					"JUCE_MODULE_AVAILABLE_juce_audio_plugin_client=1",
+					"JUCE_MODULE_AVAILABLE_juce_audio_processors=1",
+					"JUCE_MODULE_AVAILABLE_juce_audio_utils=1",
+					"JUCE_MODULE_AVAILABLE_juce_core=1",
+					"JUCE_MODULE_AVAILABLE_juce_data_structures=1",
+					"JUCE_MODULE_AVAILABLE_juce_dsp=1",
+					"JUCE_MODULE_AVAILABLE_juce_events=1",
+					"JUCE_MODULE_AVAILABLE_juce_graphics=1",
+					"JUCE_MODULE_AVAILABLE_juce_gui_basics=1",
+					"JUCE_MODULE_AVAILABLE_juce_gui_extra=1",
+					"JUCE_GLOBAL_MODULE_SETTINGS_INCLUDED=1",
+					"JUCE_VST3_CAN_REPLACE_VST2=0",
+					"JUCE_STRICT_REFCOUNTEDPOINTER=1",
+					"JucePlugin_Build_VST=0",
+					"JucePlugin_Build_VST3=0",
+					"JucePlugin_Build_AU=0",
+					"JucePlugin_Build_AUv3=0",
+					"JucePlugin_Build_RTAS=0",
+					"JucePlugin_Build_AAX=0",
+					"JucePlugin_Build_Standalone=1",
+					"JucePlugin_Build_Unity=0",
+					"JucePlugin_Enable_IAA=0",
+					"JucePlugin_Name=\\\"Diode\\ Amplifier\\\"",
+					"JucePlugin_Desc=\\\"Guitar_Amp_Prototype_Intel_Mac\\\"",
+					"JucePlugin_Manufacturer=\\\"Viator\\ DSP\\\"",
+					"JucePlugin_ManufacturerWebsite=\\\"\\\"",
+					"JucePlugin_ManufacturerEmail=\\\"\\\"",
+					"JucePlugin_ManufacturerCode=0x4d616e75",
+					"JucePlugin_PluginCode=0x476e6869",
+					"JucePlugin_IsSynth=0",
+					"JucePlugin_WantsMidiInput=0",
+					"JucePlugin_ProducesMidiOutput=0",
+					"JucePlugin_IsMidiEffect=0",
+					"JucePlugin_EditorRequiresKeyboardFocus=0",
+					"JucePlugin_Version=1.0.0",
+					"JucePlugin_VersionCode=0x10000",
+					"JucePlugin_VersionString=\\\"1.0.0\\\"",
+					"JucePlugin_VSTUniqueID=JucePlugin_PluginCode",
+					"JucePlugin_VSTCategory=kPlugCategEffect",
+					"JucePlugin_Vst3Category=\\\"Fx\\\"",
+					"JucePlugin_AUMainType='aufx'",
+					"JucePlugin_AUSubType=JucePlugin_PluginCode",
+					"JucePlugin_AUExportPrefix=Guitar_Amp_Prototype_Intel_MacAU",
+					"JucePlugin_AUExportPrefixQuoted=\\\"Guitar_Amp_Prototype_Intel_MacAU\\\"",
+					"JucePlugin_AUManufacturerCode=JucePlugin_ManufacturerCode",
+					"JucePlugin_CFBundleIdentifier=com.yourcompany.Guitar_Amp_Prototype_Intel_Mac",
+					"JucePlugin_RTASCategory=0",
+					"JucePlugin_RTASManufacturerCode=JucePlugin_ManufacturerCode",
+					"JucePlugin_RTASProductId=JucePlugin_PluginCode",
+					"JucePlugin_RTASDisableBypass=0",
+					"JucePlugin_RTASDisableMultiMono=0",
+					"JucePlugin_AAXIdentifier=com.yourcompany.Guitar_Amp_Prototype_Intel_Mac",
+					"JucePlugin_AAXManufacturerCode=JucePlugin_ManufacturerCode",
+					"JucePlugin_AAXProductId=JucePlugin_PluginCode",
+					"JucePlugin_AAXCategory=0",
+					"JucePlugin_AAXDisableBypass=0",
+					"JucePlugin_AAXDisableMultiMono=0",
+					"JucePlugin_IAAType=0x61757278",
+					"JucePlugin_IAASubType=JucePlugin_PluginCode",
+					"JucePlugin_IAAName=\\\"Viator\\ DSP:\\ Diode\\ Amplifier\\\"",
+					"JucePlugin_VSTNumMidiInputs=16",
+					"JucePlugin_VSTNumMidiOutputs=16",
+					"JUCE_STANDALONE_APPLICATION=JucePlugin_Build_Standalone",
+					"JUCER_XCODE_MAC_F6D2F4CF=1",
+					"JUCE_APP_VERSION=1.0.0",
+					"JUCE_APP_VERSION_HEX=0x10000",
+				);
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				HEADER_SEARCH_PATHS = (
+					"/Users/land00m/Documents/JUCE/JUCE-master/modules/juce_audio_processors/format_types/VST3_SDK",
+					"../../JuceLibraryCode",
+					"/Users/land00m/Documents/JUCE/JUCE-master/modules",
+					"/Users/land00m/Documents/JUCE/JUCE-master/modules/juce_audio_plugin_client",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = Info-Standalone_Plugin.plist;
+				INFOPLIST_PREPROCESS = NO;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_HEADER_SEARCH_PATHS = (
+					"/Users/land00m/Documents/JUCE/JUCE-master/modules/juce_audio_processors/format_types/VST3_SDK",
+					"../../JuceLibraryCode",
+					"/Users/land00m/Documents/JUCE/JUCE-master/modules",
+					"/Users/land00m/Documents/JUCE/JUCE-master/modules/juce_audio_plugin_client",
+				);
+				OTHER_LDFLAGS = "-lGuitar_Amp_Prototype_Intel_Mac";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yourcompany.Guitar_Amp_Prototype_Intel_Mac;
+				PRODUCT_NAME = "Guitar_Amp_Prototype_Intel_Mac";
+				USE_HEADERMAP = NO;
+				VALID_ARCHS = "i386 x86_64 arm64 arm64e";
+			};
+			name = Debug;
+		};
+		FD075228C7F43F989D2F3D62 = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_LINK_OBJC_RUNTIME = NO;
+				CODE_SIGN_IDENTITY = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "$(PROJECT_DIR)/build/$(CONFIGURATION)";
+				DEAD_CODE_STRIPPING = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"_NDEBUG=1",
+					"NDEBUG=1",
+					"JUCE_DISPLAY_SPLASH_SCREEN=1",
+					"JUCE_USE_DARK_SPLASH_SCREEN=1",
+					"JUCE_PROJUCER_VERSION=0x60005",
+					"JUCE_MODULE_AVAILABLE_juce_audio_basics=1",
+					"JUCE_MODULE_AVAILABLE_juce_audio_devices=1",
+					"JUCE_MODULE_AVAILABLE_juce_audio_formats=1",
+					"JUCE_MODULE_AVAILABLE_juce_audio_plugin_client=1",
+					"JUCE_MODULE_AVAILABLE_juce_audio_processors=1",
+					"JUCE_MODULE_AVAILABLE_juce_audio_utils=1",
+					"JUCE_MODULE_AVAILABLE_juce_core=1",
+					"JUCE_MODULE_AVAILABLE_juce_data_structures=1",
+					"JUCE_MODULE_AVAILABLE_juce_dsp=1",
+					"JUCE_MODULE_AVAILABLE_juce_events=1",
+					"JUCE_MODULE_AVAILABLE_juce_graphics=1",
+					"JUCE_MODULE_AVAILABLE_juce_gui_basics=1",
+					"JUCE_MODULE_AVAILABLE_juce_gui_extra=1",
+					"JUCE_GLOBAL_MODULE_SETTINGS_INCLUDED=1",
+					"JUCE_VST3_CAN_REPLACE_VST2=0",
+					"JUCE_STRICT_REFCOUNTEDPOINTER=1",
+					"JucePlugin_Build_VST=0",
+					"JucePlugin_Build_VST3=0",
+					"JucePlugin_Build_AU=0",
+					"JucePlugin_Build_AUv3=0",
+					"JucePlugin_Build_RTAS=0",
+					"JucePlugin_Build_AAX=0",
+					"JucePlugin_Build_Standalone=1",
+					"JucePlugin_Build_Unity=0",
+					"JucePlugin_Enable_IAA=0",
+					"JucePlugin_Name=\\\"Diode\\ Amplifier\\\"",
+					"JucePlugin_Desc=\\\"Guitar_Amp_Prototype_Intel_Mac\\\"",
+					"JucePlugin_Manufacturer=\\\"Viator\\ DSP\\\"",
+					"JucePlugin_ManufacturerWebsite=\\\"\\\"",
+					"JucePlugin_ManufacturerEmail=\\\"\\\"",
+					"JucePlugin_ManufacturerCode=0x4d616e75",
+					"JucePlugin_PluginCode=0x476e6869",
+					"JucePlugin_IsSynth=0",
+					"JucePlugin_WantsMidiInput=0",
+					"JucePlugin_ProducesMidiOutput=0",
+					"JucePlugin_IsMidiEffect=0",
+					"JucePlugin_EditorRequiresKeyboardFocus=0",
+					"JucePlugin_Version=1.0.0",
+					"JucePlugin_VersionCode=0x10000",
+					"JucePlugin_VersionString=\\\"1.0.0\\\"",
+					"JucePlugin_VSTUniqueID=JucePlugin_PluginCode",
+					"JucePlugin_VSTCategory=kPlugCategEffect",
+					"JucePlugin_Vst3Category=\\\"Fx\\\"",
+					"JucePlugin_AUMainType='aufx'",
+					"JucePlugin_AUSubType=JucePlugin_PluginCode",
+					"JucePlugin_AUExportPrefix=Guitar_Amp_Prototype_Intel_MacAU",
+					"JucePlugin_AUExportPrefixQuoted=\\\"Guitar_Amp_Prototype_Intel_MacAU\\\"",
+					"JucePlugin_AUManufacturerCode=JucePlugin_ManufacturerCode",
+					"JucePlugin_CFBundleIdentifier=com.yourcompany.Guitar_Amp_Prototype_Intel_Mac",
+					"JucePlugin_RTASCategory=0",
+					"JucePlugin_RTASManufacturerCode=JucePlugin_ManufacturerCode",
+					"JucePlugin_RTASProductId=JucePlugin_PluginCode",
+					"JucePlugin_RTASDisableBypass=0",
+					"JucePlugin_RTASDisableMultiMono=0",
+					"JucePlugin_AAXIdentifier=com.yourcompany.Guitar_Amp_Prototype_Intel_Mac",
+					"JucePlugin_AAXManufacturerCode=JucePlugin_ManufacturerCode",
+					"JucePlugin_AAXProductId=JucePlugin_PluginCode",
+					"JucePlugin_AAXCategory=0",
+					"JucePlugin_AAXDisableBypass=0",
+					"JucePlugin_AAXDisableMultiMono=0",
+					"JucePlugin_IAAType=0x61757278",
+					"JucePlugin_IAASubType=JucePlugin_PluginCode",
+					"JucePlugin_IAAName=\\\"Viator\\ DSP:\\ Diode\\ Amplifier\\\"",
+					"JucePlugin_VSTNumMidiInputs=16",
+					"JucePlugin_VSTNumMidiOutputs=16",
+					"JUCE_STANDALONE_APPLICATION=JucePlugin_Build_Standalone",
+					"JUCER_XCODE_MAC_F6D2F4CF=1",
+					"JUCE_APP_VERSION=1.0.0",
+					"JUCE_APP_VERSION_HEX=0x10000",
+				);
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				HEADER_SEARCH_PATHS = (
+					"/Users/land00m/Documents/JUCE/JUCE-master/modules/juce_audio_processors/format_types/VST3_SDK",
+					"../../JuceLibraryCode",
+					"/Users/land00m/Documents/JUCE/JUCE-master/modules",
+					"/Users/land00m/Documents/JUCE/JUCE-master/modules/juce_audio_plugin_client",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = Info-Standalone_Plugin.plist;
+				INFOPLIST_PREPROCESS = NO;
+				LLVM_LTO = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_HEADER_SEARCH_PATHS = (
+					"/Users/land00m/Documents/JUCE/JUCE-master/modules/juce_audio_processors/format_types/VST3_SDK",
+					"../../JuceLibraryCode",
+					"/Users/land00m/Documents/JUCE/JUCE-master/modules",
+					"/Users/land00m/Documents/JUCE/JUCE-master/modules/juce_audio_plugin_client",
+				);
+				OTHER_LDFLAGS = "-lGuitar_Amp_Prototype_Intel_Mac";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yourcompany.Guitar_Amp_Prototype_Intel_Mac;
+				PRODUCT_NAME = "Guitar_Amp_Prototype_Intel_Mac";
+				USE_HEADERMAP = NO;
+				VALID_ARCHS = "i386 x86_64 arm64 arm64e";
+			};
+			name = Release;
+		};
+		CA0F6E28F80B9ACACC9DC156 = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_LINK_OBJC_RUNTIME = NO;
+				CODE_SIGN_IDENTITY = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "$(PROJECT_DIR)/build/$(CONFIGURATION)";
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"_DEBUG=1",
+					"DEBUG=1",
+					"JUCE_DISPLAY_SPLASH_SCREEN=1",
+					"JUCE_USE_DARK_SPLASH_SCREEN=1",
+					"JUCE_PROJUCER_VERSION=0x60005",
+					"JUCE_MODULE_AVAILABLE_juce_audio_basics=1",
+					"JUCE_MODULE_AVAILABLE_juce_audio_devices=1",
+					"JUCE_MODULE_AVAILABLE_juce_audio_formats=1",
+					"JUCE_MODULE_AVAILABLE_juce_audio_plugin_client=1",
+					"JUCE_MODULE_AVAILABLE_juce_audio_processors=1",
+					"JUCE_MODULE_AVAILABLE_juce_audio_utils=1",
+					"JUCE_MODULE_AVAILABLE_juce_core=1",
+					"JUCE_MODULE_AVAILABLE_juce_data_structures=1",
+					"JUCE_MODULE_AVAILABLE_juce_dsp=1",
+					"JUCE_MODULE_AVAILABLE_juce_events=1",
+					"JUCE_MODULE_AVAILABLE_juce_graphics=1",
+					"JUCE_MODULE_AVAILABLE_juce_gui_basics=1",
+					"JUCE_MODULE_AVAILABLE_juce_gui_extra=1",
+					"JUCE_GLOBAL_MODULE_SETTINGS_INCLUDED=1",
+					"JUCE_VST3_CAN_REPLACE_VST2=0",
+					"JUCE_STRICT_REFCOUNTEDPOINTER=1",
+					"JucePlugin_Build_VST=0",
+					"JucePlugin_Build_VST3=1",
+					"JucePlugin_Build_AU=1",
+					"JucePlugin_Build_AUv3=0",
+					"JucePlugin_Build_RTAS=0",
+					"JucePlugin_Build_AAX=0",
+					"JucePlugin_Build_Standalone=1",
+					"JucePlugin_Build_Unity=0",
+					"JucePlugin_Enable_IAA=0",
+					"JucePlugin_Name=\\\"Diode\\ Amplifier\\\"",
+					"JucePlugin_Desc=\\\"Guitar_Amp_Prototype_Intel_Mac\\\"",
+					"JucePlugin_Manufacturer=\\\"Viator\\ DSP\\\"",
+					"JucePlugin_ManufacturerWebsite=\\\"\\\"",
+					"JucePlugin_ManufacturerEmail=\\\"\\\"",
+					"JucePlugin_ManufacturerCode=0x4d616e75",
+					"JucePlugin_PluginCode=0x476e6869",
+					"JucePlugin_IsSynth=0",
+					"JucePlugin_WantsMidiInput=0",
+					"JucePlugin_ProducesMidiOutput=0",
+					"JucePlugin_IsMidiEffect=0",
+					"JucePlugin_EditorRequiresKeyboardFocus=0",
+					"JucePlugin_Version=1.0.0",
+					"JucePlugin_VersionCode=0x10000",
+					"JucePlugin_VersionString=\\\"1.0.0\\\"",
+					"JucePlugin_VSTUniqueID=JucePlugin_PluginCode",
+					"JucePlugin_VSTCategory=kPlugCategEffect",
+					"JucePlugin_Vst3Category=\\\"Fx\\\"",
+					"JucePlugin_AUMainType='aufx'",
+					"JucePlugin_AUSubType=JucePlugin_PluginCode",
+					"JucePlugin_AUExportPrefix=Guitar_Amp_Prototype_Intel_MacAU",
+					"JucePlugin_AUExportPrefixQuoted=\\\"Guitar_Amp_Prototype_Intel_MacAU\\\"",
+					"JucePlugin_AUManufacturerCode=JucePlugin_ManufacturerCode",
+					"JucePlugin_CFBundleIdentifier=com.yourcompany.Guitar_Amp_Prototype_Intel_Mac",
+					"JucePlugin_RTASCategory=0",
+					"JucePlugin_RTASManufacturerCode=JucePlugin_ManufacturerCode",
+					"JucePlugin_RTASProductId=JucePlugin_PluginCode",
+					"JucePlugin_RTASDisableBypass=0",
+					"JucePlugin_RTASDisableMultiMono=0",
+					"JucePlugin_AAXIdentifier=com.yourcompany.Guitar_Amp_Prototype_Intel_Mac",
+					"JucePlugin_AAXManufacturerCode=JucePlugin_ManufacturerCode",
+					"JucePlugin_AAXProductId=JucePlugin_PluginCode",
+					"JucePlugin_AAXCategory=0",
+					"JucePlugin_AAXDisableBypass=0",
+					"JucePlugin_AAXDisableMultiMono=0",
+					"JucePlugin_IAAType=0x61757278",
+					"JucePlugin_IAASubType=JucePlugin_PluginCode",
+					"JucePlugin_IAAName=\\\"Viator\\ DSP:\\ Diode\\ Amplifier\\\"",
+					"JucePlugin_VSTNumMidiInputs=16",
+					"JucePlugin_VSTNumMidiOutputs=16",
+					"JUCE_STANDALONE_APPLICATION=JucePlugin_Build_Standalone",
+					"JUCER_XCODE_MAC_F6D2F4CF=1",
+					"JUCE_APP_VERSION=1.0.0",
+					"JUCE_APP_VERSION_HEX=0x10000",
+					"JUCE_SHARED_CODE=1",
+				);
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				HEADER_SEARCH_PATHS = (
+					"/Users/land00m/Documents/JUCE/JUCE-master/modules/juce_audio_processors/format_types/VST3_SDK",
+					"../../JuceLibraryCode",
+					"/Users/land00m/Documents/JUCE/JUCE-master/modules",
+					"/Users/land00m/Documents/JUCE/JUCE-master/modules/juce_audio_plugin_client",
+					"$(inherited)",
+				);
+				INSTALL_PATH = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_HEADER_SEARCH_PATHS = (
+					"/Users/land00m/Documents/JUCE/JUCE-master/modules/juce_audio_processors/format_types/VST3_SDK",
+					"../../JuceLibraryCode",
+					"/Users/land00m/Documents/JUCE/JUCE-master/modules",
+					"/Users/land00m/Documents/JUCE/JUCE-master/modules/juce_audio_plugin_client",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yourcompany.Guitar_Amp_Prototype_Intel_Mac;
+				PRODUCT_NAME = "Guitar_Amp_Prototype_Intel_Mac";
+				SKIP_INSTALL = YES;
+				USE_HEADERMAP = NO;
+				VALID_ARCHS = "i386 x86_64 arm64 arm64e";
+			};
+			name = Debug;
+		};
+		BFF2C6355B69EAAB9B5CD9BC = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_LINK_OBJC_RUNTIME = NO;
+				CODE_SIGN_IDENTITY = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "$(PROJECT_DIR)/build/$(CONFIGURATION)";
+				DEAD_CODE_STRIPPING = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"_NDEBUG=1",
+					"NDEBUG=1",
+					"JUCE_DISPLAY_SPLASH_SCREEN=1",
+					"JUCE_USE_DARK_SPLASH_SCREEN=1",
+					"JUCE_PROJUCER_VERSION=0x60005",
+					"JUCE_MODULE_AVAILABLE_juce_audio_basics=1",
+					"JUCE_MODULE_AVAILABLE_juce_audio_devices=1",
+					"JUCE_MODULE_AVAILABLE_juce_audio_formats=1",
+					"JUCE_MODULE_AVAILABLE_juce_audio_plugin_client=1",
+					"JUCE_MODULE_AVAILABLE_juce_audio_processors=1",
+					"JUCE_MODULE_AVAILABLE_juce_audio_utils=1",
+					"JUCE_MODULE_AVAILABLE_juce_core=1",
+					"JUCE_MODULE_AVAILABLE_juce_data_structures=1",
+					"JUCE_MODULE_AVAILABLE_juce_dsp=1",
+					"JUCE_MODULE_AVAILABLE_juce_events=1",
+					"JUCE_MODULE_AVAILABLE_juce_graphics=1",
+					"JUCE_MODULE_AVAILABLE_juce_gui_basics=1",
+					"JUCE_MODULE_AVAILABLE_juce_gui_extra=1",
+					"JUCE_GLOBAL_MODULE_SETTINGS_INCLUDED=1",
+					"JUCE_VST3_CAN_REPLACE_VST2=0",
+					"JUCE_STRICT_REFCOUNTEDPOINTER=1",
+					"JucePlugin_Build_VST=0",
+					"JucePlugin_Build_VST3=1",
+					"JucePlugin_Build_AU=1",
+					"JucePlugin_Build_AUv3=0",
+					"JucePlugin_Build_RTAS=0",
+					"JucePlugin_Build_AAX=0",
+					"JucePlugin_Build_Standalone=1",
+					"JucePlugin_Build_Unity=0",
+					"JucePlugin_Enable_IAA=0",
+					"JucePlugin_Name=\\\"Diode\\ Amplifier\\\"",
+					"JucePlugin_Desc=\\\"Guitar_Amp_Prototype_Intel_Mac\\\"",
+					"JucePlugin_Manufacturer=\\\"Viator\\ DSP\\\"",
+					"JucePlugin_ManufacturerWebsite=\\\"\\\"",
+					"JucePlugin_ManufacturerEmail=\\\"\\\"",
+					"JucePlugin_ManufacturerCode=0x4d616e75",
+					"JucePlugin_PluginCode=0x476e6869",
+					"JucePlugin_IsSynth=0",
+					"JucePlugin_WantsMidiInput=0",
+					"JucePlugin_ProducesMidiOutput=0",
+					"JucePlugin_IsMidiEffect=0",
+					"JucePlugin_EditorRequiresKeyboardFocus=0",
+					"JucePlugin_Version=1.0.0",
+					"JucePlugin_VersionCode=0x10000",
+					"JucePlugin_VersionString=\\\"1.0.0\\\"",
+					"JucePlugin_VSTUniqueID=JucePlugin_PluginCode",
+					"JucePlugin_VSTCategory=kPlugCategEffect",
+					"JucePlugin_Vst3Category=\\\"Fx\\\"",
+					"JucePlugin_AUMainType='aufx'",
+					"JucePlugin_AUSubType=JucePlugin_PluginCode",
+					"JucePlugin_AUExportPrefix=Guitar_Amp_Prototype_Intel_MacAU",
+					"JucePlugin_AUExportPrefixQuoted=\\\"Guitar_Amp_Prototype_Intel_MacAU\\\"",
+					"JucePlugin_AUManufacturerCode=JucePlugin_ManufacturerCode",
+					"JucePlugin_CFBundleIdentifier=com.yourcompany.Guitar_Amp_Prototype_Intel_Mac",
+					"JucePlugin_RTASCategory=0",
+					"JucePlugin_RTASManufacturerCode=JucePlugin_ManufacturerCode",
+					"JucePlugin_RTASProductId=JucePlugin_PluginCode",
+					"JucePlugin_RTASDisableBypass=0",
+					"JucePlugin_RTASDisableMultiMono=0",
+					"JucePlugin_AAXIdentifier=com.yourcompany.Guitar_Amp_Prototype_Intel_Mac",
+					"JucePlugin_AAXManufacturerCode=JucePlugin_ManufacturerCode",
+					"JucePlugin_AAXProductId=JucePlugin_PluginCode",
+					"JucePlugin_AAXCategory=0",
+					"JucePlugin_AAXDisableBypass=0",
+					"JucePlugin_AAXDisableMultiMono=0",
+					"JucePlugin_IAAType=0x61757278",
+					"JucePlugin_IAASubType=JucePlugin_PluginCode",
+					"JucePlugin_IAAName=\\\"Viator\\ DSP:\\ Diode\\ Amplifier\\\"",
+					"JucePlugin_VSTNumMidiInputs=16",
+					"JucePlugin_VSTNumMidiOutputs=16",
+					"JUCE_STANDALONE_APPLICATION=JucePlugin_Build_Standalone",
+					"JUCER_XCODE_MAC_F6D2F4CF=1",
+					"JUCE_APP_VERSION=1.0.0",
+					"JUCE_APP_VERSION_HEX=0x10000",
+					"JUCE_SHARED_CODE=1",
+				);
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				HEADER_SEARCH_PATHS = (
+					"/Users/land00m/Documents/JUCE/JUCE-master/modules/juce_audio_processors/format_types/VST3_SDK",
+					"../../JuceLibraryCode",
+					"/Users/land00m/Documents/JUCE/JUCE-master/modules",
+					"/Users/land00m/Documents/JUCE/JUCE-master/modules/juce_audio_plugin_client",
+					"$(inherited)",
+				);
+				INSTALL_PATH = "@executable_path/../Frameworks";
+				LLVM_LTO = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_HEADER_SEARCH_PATHS = (
+					"/Users/land00m/Documents/JUCE/JUCE-master/modules/juce_audio_processors/format_types/VST3_SDK",
+					"../../JuceLibraryCode",
+					"/Users/land00m/Documents/JUCE/JUCE-master/modules",
+					"/Users/land00m/Documents/JUCE/JUCE-master/modules/juce_audio_plugin_client",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yourcompany.Guitar_Amp_Prototype_Intel_Mac;
+				PRODUCT_NAME = "Guitar_Amp_Prototype_Intel_Mac";
+				SKIP_INSTALL = YES;
+				USE_HEADERMAP = NO;
+				VALID_ARCHS = "i386 x86_64 arm64 arm64e";
+			};
+			name = Release;
+		};
+		4875BED601A685D1CF530D03 = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = NO;
+				GCC_C_LANGUAGE_STANDARD = c11;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_SYMBOLS_PRIVATE_EXTERN = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_CHECK_SWITCH_STATEMENTS = YES;
+				GCC_WARN_MISSING_PARENTHESES = YES;
+				GCC_WARN_NON_VIRTUAL_DESTRUCTOR = YES;
+				GCC_WARN_TYPECHECK_CALLS_TO_PRINTF = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "Guitar_Amp_Prototype_Intel_Mac";
+				SDKROOT = macosx;
+				WARNING_CFLAGS = "-Wreorder";
+				ZERO_LINK = NO;
+			};
+			name = Debug;
+		};
+		9043A440726DAA7B4FC58F63 = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = NO;
+				GCC_C_LANGUAGE_STANDARD = c11;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_SYMBOLS_PRIVATE_EXTERN = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_CHECK_SWITCH_STATEMENTS = YES;
+				GCC_WARN_MISSING_PARENTHESES = YES;
+				GCC_WARN_NON_VIRTUAL_DESTRUCTOR = YES;
+				GCC_WARN_TYPECHECK_CALLS_TO_PRINTF = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PRODUCT_NAME = "Guitar_Amp_Prototype_Intel_Mac";
+				SDKROOT = macosx;
+				WARNING_CFLAGS = "-Wreorder";
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+		9C47DB4F31EC04D21AF72366 = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4875BED601A685D1CF530D03,
+				9043A440726DAA7B4FC58F63,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		3C1876C530BC3E3554DF266B = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC1CDA26EFF23DD846134A2A,
+				9C3712FD1EA3FCB6DBD1E088,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		E033BED8E32690714E89FBEA = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 3C1876C530BC3E3554DF266B;
+			buildPhases = ( );
+			buildRules = ( );
+			dependencies = (
+				82F7C077B93F5F41DAB59D8B,
+				58C017F30A4FCC0C7FA2A503,
+				961FE5F058844EEE5BE321DF,
+				0B7989615C3D4F488257ADFB,
+			);
+			name = "Guitar_Amp_Prototype_Intel_Mac - All";
+			productName = "Guitar_Amp_Prototype_Intel_Mac";
+		};
+		9AAF9A92EDC93E42E0D54E34 = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFEBD021A02816C997CAC620,
+				1783133F448A7E2A654FDF26,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		B2BA55A85D205651D956ABAB = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30FDCA8103AFA4903C42F1A8,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		984C53BA1904B5EBB378F9B5 = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A94A0D7EF04BACC1E3FEF051,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		25FDA3A8431A39ED46996A68 = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27C029F12FB4455D4FAC12D9,
+				B9F81B4281EECFFCD59CEE44,
+				53ACE64F2CA3817CB94DF2F8,
+				3252EB9B8A876F03DB801EA5,
+				E796F05FD4AB1DBA72F1CA61,
+				88204272520B92952BA07EEE,
+				B01E776E2C6EFD59F8549BAE,
+				A38E829DC8D10F0F983120E9,
+				B93787FA00D04E8D51359D5A,
+				80DEF78CF855EF4EF14727A4,
+				5DDA4353DE7047F79CD64D36,
+				4659FFC0870D0D6C2DB4FA5C,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		970E21FBA0F7BF4FFFBCA4B1 = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9AAF9A92EDC93E42E0D54E34;
+			buildPhases = (
+				B2BA55A85D205651D956ABAB,
+				984C53BA1904B5EBB378F9B5,
+				25FDA3A8431A39ED46996A68,
+			);
+			buildRules = ( );
+			dependencies = (
+				1A12940CEA67A3CF6467FD6C,
+			);
+			name = "Guitar_Amp_Prototype_Intel_Mac - VST3";
+			productName = "Guitar_Amp_Prototype_Intel_Mac";
+			productReference = E63D6B6F7CFB37732A60A3C0;
+			productType = "com.apple.product-type.bundle";
+		};
+		B5AD08B73F1BD8A16CD01C61 = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE038823941C4F1F477D61A8,
+				FA20CA4213ED2712F30C187C,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		D711944223460F2762B920F4 = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30FDCA8103AFA4903C42F1A8,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0AB8E2C3BFD73CC70598BD83 = {
+			isa = PBXRezBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D22BDDD402FD23687F1AFF7C,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B69A1A2AD6E66FAD8EEBA8A = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				037A0FC0C804E28436E01B38,
+				222B55F0CA950A21523B4B41,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		556B0DB25012705CD12017D2 = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E76046FB00EEBEF29B2EDEAA,
+				27C029F12FB4455D4FAC12D9,
+				B9F81B4281EECFFCD59CEE44,
+				53ACE64F2CA3817CB94DF2F8,
+				3252EB9B8A876F03DB801EA5,
+				E796F05FD4AB1DBA72F1CA61,
+				88204272520B92952BA07EEE,
+				B01E776E2C6EFD59F8549BAE,
+				A38E829DC8D10F0F983120E9,
+				B93787FA00D04E8D51359D5A,
+				80DEF78CF855EF4EF14727A4,
+				5DDA4353DE7047F79CD64D36,
+				4659FFC0870D0D6C2DB4FA5C,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C606C90B77AEEF583FC2875 = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B5AD08B73F1BD8A16CD01C61;
+			buildPhases = (
+				D711944223460F2762B920F4,
+				0AB8E2C3BFD73CC70598BD83,
+				6B69A1A2AD6E66FAD8EEBA8A,
+				556B0DB25012705CD12017D2,
+			);
+			buildRules = ( );
+			dependencies = (
+				9914C763DBED02EBCFC477B4,
+			);
+			name = "Guitar_Amp_Prototype_Intel_Mac - AU";
+			productName = "Guitar_Amp_Prototype_Intel_Mac";
+			productReference = FAA41BB8416C6F59AE8BFCF3;
+			productType = "com.apple.product-type.bundle";
+		};
+		12F8805EAC6E94E6E4FD9440 = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				74069E577654FA2FE42C2E8B,
+				FD075228C7F43F989D2F3D62,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		EA8E6B6773FBDC1573269C32 = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30FDCA8103AFA4903C42F1A8,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9120F3D9A77E1C6D6EC8762 = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D33571F6D14D72E61C2114D,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E00FE02E1DD1A677BF1CA8D5 = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27C029F12FB4455D4FAC12D9,
+				B9F81B4281EECFFCD59CEE44,
+				53ACE64F2CA3817CB94DF2F8,
+				3252EB9B8A876F03DB801EA5,
+				E796F05FD4AB1DBA72F1CA61,
+				88204272520B92952BA07EEE,
+				B01E776E2C6EFD59F8549BAE,
+				A38E829DC8D10F0F983120E9,
+				B93787FA00D04E8D51359D5A,
+				80DEF78CF855EF4EF14727A4,
+				5DDA4353DE7047F79CD64D36,
+				4659FFC0870D0D6C2DB4FA5C,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		486A508F493FE48ACAA1D26F = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 12F8805EAC6E94E6E4FD9440;
+			buildPhases = (
+				EA8E6B6773FBDC1573269C32,
+				A9120F3D9A77E1C6D6EC8762,
+				E00FE02E1DD1A677BF1CA8D5,
+			);
+			buildRules = ( );
+			dependencies = (
+				4741FBF2937D069A194ADBF4,
+			);
+			name = "Guitar_Amp_Prototype_Intel_Mac - Standalone Plugin";
+			productName = "Guitar_Amp_Prototype_Intel_Mac";
+			productReference = E04D0C913FF18F7FB9FD6F3F;
+			productType = "com.apple.product-type.application";
+		};
+		ADBDF85D47A809931D78D52B = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA0F6E28F80B9ACACC9DC156,
+				BFF2C6355B69EAAB9B5CD9BC,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		8971CF1C693E2E0EB741D9BC = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA369EB9303169061C5DD1CA,
+				1F9DBE5413525169FE4F5AAF,
+				02994F68E0EB4747B5473D9A,
+				263CFCA5A272E7C7C0C16E0E,
+				55CD9448044FEDE0AB01DDF8,
+				D5E14C930ECF6F1A9792E567,
+				CF303401DEFBE6C021DD6395,
+				FC1C9734F02AD44E2833C946,
+				62369DB94B0359A139FE989D,
+				AE230FA5E0B2A3315A6062C7,
+				1B46F706BA8B01ED29F88F07,
+				189B7204936AFD9F14C476A7,
+				4748F86057C93486941BF3D8,
+				E6285C49FAAF114FFC70FC6A,
+				42834DFA7F21E3641D921FBE,
+				08BD03B8F0BF26E3ED707521,
+				BACB709D8F9F9681C1D91CB4,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5ECBB9D7F8D440AF3E79DC9 = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ADBDF85D47A809931D78D52B;
+			buildPhases = (
+				8971CF1C693E2E0EB741D9BC,
+			);
+			buildRules = ( );
+			dependencies = ( );
+			name = "Guitar_Amp_Prototype_Intel_Mac - Shared Code";
+			productName = "Guitar_Amp_Prototype_Intel_Mac";
+			productReference = E00DDB57C65B82E5E2C45817;
+			productType = "com.apple.product-type.library.static";
+		};
+		56875F51A456D688405D47C8 = {
+			isa = PBXProject;
+			buildConfigurationList = 9C47DB4F31EC04D21AF72366;
+			attributes = { LastUpgradeCheck = 1200; ORGANIZATIONNAME = ""; TargetAttributes = { E033BED8E32690714E89FBEA = { SystemCapabilities = {com.apple.ApplicationGroups.iOS = { enabled = 0; }; com.apple.InAppPurchase = { enabled = 0; }; com.apple.InterAppAudio = { enabled = 0; }; com.apple.Push = { enabled = 0; }; com.apple.Sandbox = { enabled = 0; }; com.apple.HardenedRuntime = { enabled = 0; }; }; };970E21FBA0F7BF4FFFBCA4B1 = { SystemCapabilities = {com.apple.ApplicationGroups.iOS = { enabled = 0; }; com.apple.InAppPurchase = { enabled = 0; }; com.apple.InterAppAudio = { enabled = 0; }; com.apple.Push = { enabled = 0; }; com.apple.Sandbox = { enabled = 0; }; com.apple.HardenedRuntime = { enabled = 0; }; }; };8C606C90B77AEEF583FC2875 = { SystemCapabilities = {com.apple.ApplicationGroups.iOS = { enabled = 0; }; com.apple.InAppPurchase = { enabled = 0; }; com.apple.InterAppAudio = { enabled = 0; }; com.apple.Push = { enabled = 0; }; com.apple.Sandbox = { enabled = 0; }; com.apple.HardenedRuntime = { enabled = 0; }; }; };486A508F493FE48ACAA1D26F = { SystemCapabilities = {com.apple.ApplicationGroups.iOS = { enabled = 0; }; com.apple.InAppPurchase = { enabled = 0; }; com.apple.InterAppAudio = { enabled = 0; }; com.apple.Push = { enabled = 0; }; com.apple.Sandbox = { enabled = 0; }; com.apple.HardenedRuntime = { enabled = 0; }; }; };A5ECBB9D7F8D440AF3E79DC9 = { SystemCapabilities = {com.apple.ApplicationGroups.iOS = { enabled = 0; }; com.apple.InAppPurchase = { enabled = 0; }; com.apple.InterAppAudio = { enabled = 0; }; com.apple.Push = { enabled = 0; }; com.apple.Sandbox = { enabled = 0; }; com.apple.HardenedRuntime = { enabled = 0; }; }; }; }; };
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			mainGroup = 079E4A694CE2D9C5474A254F;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (E033BED8E32690714E89FBEA, 970E21FBA0F7BF4FFFBCA4B1, 8C606C90B77AEEF583FC2875, 486A508F493FE48ACAA1D26F, A5ECBB9D7F8D440AF3E79DC9);
+			knownRegions = (en, Base);
+		};
+	};
+	rootObject = 56875F51A456D688405D47C8;
+}

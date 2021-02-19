@@ -81,7 +81,7 @@ public:
 
 private:
     const float piDivisor = 2 / 3.14;
-    float lastSampleRate = 44100;
+    float lastSampleRate = 44100.0;
 
     /* non user controlled filters. Used to shape the tone of the sim*/
     juce::dsp::ProcessorDuplicator<juce::dsp::IIR::Filter<float>, juce::dsp::IIR::Coefficients<float>> highPassFilter;

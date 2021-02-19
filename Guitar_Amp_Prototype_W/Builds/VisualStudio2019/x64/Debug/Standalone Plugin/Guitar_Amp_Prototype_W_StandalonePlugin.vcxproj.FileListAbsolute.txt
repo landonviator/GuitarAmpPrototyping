@@ -1,2 +1,2 @@
-C:\Users\lando\Documents\GitHub\GuitarAmpPrototyping\Guitar_Amp_Prototype_W\Builds\VisualStudio2019\x64\Debug\Standalone Plugin\Guitar_Amp_Prototype_W.exe
 C:\Users\lando\Documents\GitHub\GuitarAmpPrototyping\Guitar_Amp_Prototype_W\Builds\VisualStudio2019\x64\Debug\Standalone Plugin\Guitar_Amp_Prototype_W.pdb
+C:\Users\lando\Documents\GitHub\GuitarAmpPrototyping\Guitar_Amp_Prototype_W\Builds\VisualStudio2019\x64\Debug\Standalone Plugin\Guitar_Amp_Prototype_W.exe

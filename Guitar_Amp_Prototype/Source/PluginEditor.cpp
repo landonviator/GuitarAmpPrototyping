@@ -67,7 +67,7 @@ Guitar_Amp_PrototypeAudioProcessorEditor::Guitar_Amp_PrototypeAudioProcessorEdit
             }
         
         addAndMakeVisible(windowBorder);
-        windowBorder.setText("Ignorant Diode Amplifier 13");
+        windowBorder.setText("Ignorant Diode Amplifier");
         windowBorder.setColour(0x1005400, juce::Colour::fromFloatRGBA(1, 1, 1, 0.25f));
         windowBorder.setColour(0x1005410, juce::Colour::fromFloatRGBA(1, 1, 1, 0.25f));
         

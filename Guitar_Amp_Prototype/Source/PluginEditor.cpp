@@ -13,7 +13,7 @@
 Guitar_Amp_PrototypeAudioProcessorEditor::Guitar_Amp_PrototypeAudioProcessorEditor (Guitar_Amp_PrototypeAudioProcessor& p)
     : AudioProcessorEditor (&p), audioProcessor (p)
 {
-    shadowProperties.radius = 24;
+        shadowProperties.radius = 24;
         shadowProperties.offset = juce::Point<int> (-1, 3);
         dialShadow.setShadowProperties (shadowProperties);
         
